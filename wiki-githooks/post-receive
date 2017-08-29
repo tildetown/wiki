@@ -1,0 +1,7 @@
+#!/bin/bash
+umask 002
+unset GIT_DIR
+
+cd /wiki
+git reset --hard HEAD
+git log -1 > git-last-log.txt
