@@ -1,1 +1,3 @@
-TODO
+# tilde.town wiki
+
+## lol
