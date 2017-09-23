@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<head>
+<title>ssh primer</title>
+<style type="text/css">
+  body {
+    background-color: #E0B0FF;
+  }
+</style>
+</head>
+<body>
+  <h1>ssh primer! for tilde.town!</h1>
+  <h2><em>or, how to connect to another computer and tell it to do cool things</em></h2>
+
+  <h3>
+    **** if you just want to get right to a tutorial you can <a href="#tutorial">skip over this background info</a> ****
+  </h3>
+
+  <p>
+    While <a href="https://tilde.town">tilde.town</a> is accessible on the web
+    and features lovely web pages written by its users, all of the interaction
+    with tilde.town takes place <strong>inside the computer</strong> that runs
+    tilde.town as opposed to via web forms that have an effect
+    from <strong>outside</strong> tilde.town's computer.
+  </p>
+
+  <p>
+    This is what sets tilde.town apart from most other online communities. You
+    connect directly to another computer from yours alongside other people and
+    then write your web pages, chat, and play games all via text-based
+    interfaces right on tilde.town's computer.
+  </p>
+
+  <p>
+    Prior to the web (which debuted in 1995) this is how pretty much all
+  computer stuff got done. You connected directly to a machine (usually over a
+  direct, physical phone line) and did your work there.
+  </p>
+
+  <p>For a long time, people used a tool called <a
+  href="https://en.wikipedia.org/wiki/Telnet"><code>telnet</code></a> to
+connect to other computers. These days we use a tool called
+<strong>ssh</strong>.
+</p>
+
+  <p><code>ssh</code> is a text-based tool that provides a direct connection
+  from your computer to another. ssh is an acronym that stands for Secure Shell.
+  The <em>Shell</em> part refers to the fact that it's a text-based tool; we use
+  the word shell to refer to a text-based interface that you give commands to.
+  The <em>Secure</em> part refers to the fact that, when you're using ssh, no
+    one can spy on your connection to another computer (unlike the
+    old <code>telnet</code> command).
+  </p>
+
+  <p>
+    <strong>why bother with all of this?</strong> passwords are really insecure
+    and hard to manage. Using keys makes life easier for you, fair user (your
+    account is less likely to be hacked) and for me, your humble sysadmin (less
+    administration than passwords).
+  </p>
+
+  <a name="tutorial"></a>
+  <h2>ssh tutorial!</h2>
+  <p>
+    The end goal of this tutorial is to make a <strong>key pair</strong>. That's
+  a set of two files full of numbers and letters. One file is public
+  (your <em>public key</em>) and the other private (your <em>private key</em>).
+  You'll be submitting the public key in the sign-up form and using the private
+  key when you connect to tilde.town using ssh.
+  </p>
+
+  <p>
+    choose your operating system:
+    <a href="#windows">windows</a> |
+    <a href="#osx">mac osx</a> |
+    <a href="#linux">linux</a> |
+    <a href="#android">android</a>
+  </p>
+
+
+  <hr>
+  <a name="windows"></a>
+  <h3>Windows</h3>
+
+  <p>
+    We'll be using a tool called <a href="http://cmder.net">cmder</a>, which
+    is a rather nice <a
+    href="https://tilde.town/~vilmibm/images/trinity.jpg">terminal</a> that
+    provides ssh stuff for you, too.
+  </p>
+
+  <h4>generating your keypair</h4>
+  <ol>
+    <li>Download <a href="https://github.com/cmderdev/cmder/releases/download/v1.3.2/cmder.zip">a zipped copy of cmder</a>.</li>
+      <li>Extract cmder.zip</li>
+      <li>Run the extracted Cmder.exe</li>
+      <li>
+        You should see a <strong>Cmder</strong> terminal window that looks sort of like this:
+        <p>
+          <img width="600" height="400" src="https://tilde.town/~vilmibm/images/cmder.png">
+          </p>
+      </li>
+      <li>
+      copy and paste the following (paste by right clicking) into the
+      <strong>Cmder</strong> window and hit <code>Enter</code>:
+        <pre>
+          mkdir .ssh || ssh-keygen -t rsa -b 2048 -f .ssh/tilde.town
+        </pre>
+      </li>
+      <li>If it prompts to make a passphrase, just hit enter.</li>
+      <li>
+        Things should look like this:
+        <p>
+        <img width=600 height=400 src="https://tilde.town/~vilmibm/images/cmder_generating.png">
+        </p>
+      </li>
+      <li>
+      Copy and paste the following (paste by right clicking) into <strong>Cmder</strong>:
+        <pre>
+          cat ~/.ssh/tilde.town.pub
+        </pre>
+      </li>
+      <li>Things should look like this:
+        <p>
+          <img width=600 height=400 src="https://tilde.town/~vilmibm/images/cmder_cat.png">
+        </p>
+      </li>
+      <li>
+        Copy the block that was output starting
+        with <code>ssh-rsa</code> and paste it in the "SSH public key" field on the
+        sign up form (copy by highlighting the text and pressing control + c).
+      </li>
+      <li>
+        The other file that was generated (<code>.ssh/tilde.town</code>) is
+        your private key. Treat it like a password and never share it with anyone.
+      </li>
+  </ol>
+
+  <h4>using your key</h4>
+  <p>
+    Once <a href="https://tilde.town/~vilmibm">~vilmibm</a> or another admin
+    approves your sign-up, you can connect to tilde.town.
+  </p>
+  <ol>
+    <li>Open <strong>Cmder</strong>, which we unzipped in the last section.</li>
+    <li>
+      Type the following in the <strong>Cmder</strong> window and hit <code>Enter</code>:
+      <pre>
+        ssh -i ~/.ssh/tilde.town YOURUSERNAME@tilde.town
+      </pre>
+      Replace <code>YOURUSERNAME</code> with the username you signed up with. For example, if your username is <code>sharon_olds</code>, you would run this command:
+      <pre>
+        ssh -i ~/.ssh/tilde.town sharon_olds@tilde.town
+      </pre>
+    </li>
+  </ol>
+
+  <hr>
+  <a name="osx"></a>
+  <h3>Mac OSX</h3>
+
+  <h4>generating your keypair</h4>
+
+  <ol>
+    <li>Open <strong>Terminal</strong> (in <code>/Applications/Utilities</code>).</li>
+    <li>
+      In the <strong>Terminal</strong> window, copy and paste the following and press <code>Enter</code>:
+      <pre>
+        mkdir -m 700 ~/.ssh                          # Create your .ssh directory
+        ssh-keygen -t rsa -b 2048 -f ~/.ssh/tilde.town  # Create your keys
+      </pre>
+    </li>
+    <li>Say no when it asks if you want to set a passphrase.</li>
+    <li>In the <strong>Terminal</strong> window, copy and paste the following and press <code>Enter</code>:
+      <pre>
+        cd ~/.ssh          # Go to the .ssh folder in your home folder
+        cat tilde.town.pub # Outputs the content of your public key
+      </pre>
+    </li>
+    <li>
+      Copy the block that was output in <strong>Terminal</strong> starting
+      with <code>ssh-rsa</code> and paste it in the "SSH public key" field on the
+      sign up form.
+    </li>
+    <li>The other file that was generated (<code>~/.ssh/tilde.town</code>) is
+    your private key. Treat it like a password and never share it with anyone.</li>
+  </ol>
+
+  <h4>using your keypair</h4>
+
+  <p>
+    Once <a href="https://tilde.town/~vilmibm">~vilmibm</a> or another admin
+    approves your sign-up, you can connect to tilde.town.
+  </p>
+  <ol>
+    <li>Open <strong>Terminal</strong> (in <code>/Applications/Utilities</code>).</li>
+    <li>
+      Type the following in the Terminal window and hit <code>Enter</code>:
+      <pre>
+        ssh -i ~/.ssh/tilde.town YOURUSERNAME@tilde.town
+      </pre>
+      Replace <code>YOURUSERNAME</code> with the username you signed up with. For example, if your username is <code>sharon_olds</code>, you would run this command:
+      <pre>
+        ssh -i ~/.ssh/tilde.town sharon_olds@tilde.town
+      </pre>
+    </li>
+  </ol>
+
+
+  <hr>
+  <a name="linux"></a>
+  <h3>Linux</h3>
+
+  <p>
+    There are lots of different Linux distributions out there but they should
+    all have <code>ssh</code>, <code>ssh-keygen</code>, and a terminal program.
+    </p>
+
+  <h4>generating your keypair</h4>
+
+  <ol>
+    <li>Open a terminal.</li>
+    <li>in the terminal window, copy and paste the following and press <code>Enter</code>:
+      <pre>
+        mkdir -m 700 ~/.ssh                           # Create a folder called .ssh. It's okay if it already exists.
+        ssh-keygen -trsa -b 2048 -f ~/.ssh/tilde.town # create the keypair
+      </pre>
+    </li>
+    <li>Say no when it asks if you want to set a passphrase</li>
+    <li>
+      in the terminal window, copy and paste the following and press <code>Enter</code>:
+      <pre>
+        cd ~/.ssh          # Go to the .ssh folder in your home folder
+        cat tilde.town.pub # Output the content of your public key
+      </pre>
+    </li>
+    <li>
+      Copy the block that gets output in the terminal starting with <code>ssh-rsa</code> and paste it in the <strong>SSH public key</strong> field on the signup form.
+      </li>
+    <li>The other file that was generated (<code>~/.ssh/tilde.town</code>) is
+    your private key. Treat it like a password and never share it with anyone.</li>
+  </ol>
+
+  <h4>using your keypair</h4>
+
+  <p>
+    Once <a href="https://tilde.town/~vilmibm">~vilmibm</a> or another admin
+    approves your sign-up, you can connect to tilde.town.
+  </p>
+  <ol>
+    <li>Open your terminal program.</li>
+    <li>
+      Type the following in the terminal window and hit <code>Enter</code>:
+      <pre>
+        ssh -i ~/.ssh/tilde.town YOURUSERNAME@tilde.town
+      </pre>
+      Replace <code>YOURUSERNAME</code> with the username you signed up with.
+      For example, if your username is <code>sharon_olds</code>, you would run
+      this command:
+      <pre>
+        ssh -i ~/.ssh/tilde.town sharon_olds@tilde.town
+      </pre>
+    </li>
+  </ol>
+
+  <hr>
+  <a name="android"></a>
+  <h3>Android</h3>
+
+  <p>
+    This is kind of a bonus round! Check out <a href="http://juicessh.com/">JuiceSSH</a>
+    and <a href="http://sonelli.freshdesk.com/support/solutions/articles/187068-how-do-i-generate-an-ssh-key-within">this tutorial</a> for generating a keypair and <a href="http://sonelli.freshdesk.com/support/solutions/articles/178806-how-to-create-define-a-new-ssh">this tutorial</a> for connecting.
+  </p>
+
+  <hr>
+  <blockquote>
+    IMPORTANT! this tutorial is based on and uses parts
+    of <a href="https://github.com/tildeclub/tilde.club/blob/master/docs/ssh.md">the
+    tilde.club ssh primer</a>.
+  </blockquote>
+</body>
+</html>
+
