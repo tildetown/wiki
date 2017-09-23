@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>tilde.town wiki</title>
-  <link rel="stylesheet" href="theme.css">
+  <title>the tilde.town wiki</title>
+  <link rel="stylesheet" href="/wiki/theme.css">
 </head>
 <body>
 
-# the [tilde.town](https://tilde.town) wiki
+# the tilde.town wiki
 
-[index](/wiki) | [table of contents](/wiki/toc.html)
+[index](/wiki) | [table of contents](/wiki/toc.html) | back to [tilde.town](https://tilde.town)
 
 <hr>
