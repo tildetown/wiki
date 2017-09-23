@@ -2,7 +2,11 @@
 <html>
 <head>
   <title>the tilde.town wiki</title>
-  <link rel="stylesheet" href="/wiki/theme.css">
+  <style>
+    body {
+      background-color: #E0B0FF;
+    }
+  </style>
 </head>
 <body>
 
