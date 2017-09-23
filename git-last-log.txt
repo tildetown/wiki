@@ -1,5 +1,0 @@
-commit 89a7a53758ca54d05a411a1b3186635d51aa7647
-Author: vilmibm <nathanielksmith@gmail.com>
-Date:   Fri Sep 1 04:55:06 2017 +0000
-
-    some slightly less junky junk test content
