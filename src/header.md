@@ -5,8 +5,9 @@
   <link rel="stylesheet" href="theme.css">
 </head>
 <body>
+
 # the [tilde.town](https://tilde.town) wiki
 
-[index](https://tilde.town/wiki) | [table of contents](/wiki/toc.html)
+[index](/wiki) | [table of contents](/wiki/toc.html)
 
 <hr>
