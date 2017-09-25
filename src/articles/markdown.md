@@ -2,12 +2,9 @@
 
 Why write HTML by hand when you can write [Markdown](http://commonmark.org/) easily on your tilde.town server?
 
-Three simple steps:
-
-1. write your wiki page as a markdown file and save it with a `.text` extension. eg: `markdown.text`
-2. type `make` in the shell. The `markdown.text` file + `page.theme` will be turned into `markdown.html` page.
-3. add these two files to git via `git add markdown.text markdown.html` and commit.
-4. profit!
+for the wiki, your `.md` files will be automatically compiled into HTML. if
+you'd like to manually compile some markdown, use the `markdown` command on
+the command line.
 
 ## Markdown Syntax
 

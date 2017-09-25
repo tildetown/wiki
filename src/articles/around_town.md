@@ -3,9 +3,9 @@ Around Tilde Town
 
 - [Pages updated this week](/~ags/updated.html)
 
-## IRC
+## Local, real-time chat (IRC)
 
-Join the chat with `irc`. Anyone can create a channel, or join an existing one:
+Join the chat with the `chat` command. Anyone can create a channel, or join an existing one:
 
 - &#35;tildetown (default)
 - &#35;bots
