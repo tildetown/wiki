@@ -29,7 +29,7 @@ definitely help you.
 
 to view wiki pages from the command line, run
 
-    wiki get editors/nano
+    wiki get editors/micro
 
 to list the contents of the wiki, run
 
