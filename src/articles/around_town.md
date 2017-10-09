@@ -12,6 +12,9 @@ Join the chat with the `chat` command. Anyone can create a channel, or join an e
 - &#35;coding
 - &#35;music
 - &#35;poetry
+- &#35;dev
+- &#35;dumpsterfire
+- &#35;starbound
 
 ### #fridaypostcard 
 [View postcards](http://tilde.town/~jumblesale/fp.html)
