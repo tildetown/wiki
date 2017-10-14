@@ -16,7 +16,7 @@ Join the chat with the `chat` command. Anyone can create a channel, or join an e
 - &#35;dumpsterfire
 - &#35;starbound
 
-### #fridaypostcard 
+### #fridaypostcard
 [View postcards](http://tilde.town/~jumblesale/fp.html)
 
 To contribute: share a link to an image on IRC with the text _#fridaypostcard_. Updated every Friday.
