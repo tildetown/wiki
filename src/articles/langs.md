@@ -15,7 +15,7 @@ listed by the name of their cli binary
 * perl
 * perl6
 * prolog | swipl
-* bwbasic (bywater BASIC) 
+* bwbasic (bywater BASIC)
 * erl (erlang)
 * go (go-lang
 * rustc (rust)
