@@ -36,7 +36,7 @@ To play: `/join #bots` and type `!strike` and the bot will give you more instruc
 
 Type `!commands` for a list of valid commands.
 
-## For your public_html/
+## For your public\_html/
 
 ### tilde.town ring
 [View all ~ring members](http://tilde.town/~um/tilde_ring/members.html)
