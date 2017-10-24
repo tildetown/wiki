@@ -19,6 +19,8 @@ listed by the name of their cli binary
 * erl (erlang)
 * go (go-lang
 * rustc (rust)
+* apl
+* i7 (Inform7)
 
 ### Lisps
 
