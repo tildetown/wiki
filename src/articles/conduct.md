@@ -113,7 +113,7 @@ We expect all tilde.town members to abide by this code of conduct while:
 Tilde.town admin:
 
 - [~vilmibm](http://tilde.town/~vilmibm)
-  &#9993; <nks@lambdaphil.es>
+  &#9993; <tildetown@protonmail.ch>
 
 Volunteer / part-time admins:
 
@@ -125,7 +125,7 @@ Admins can be reached privately:
 
 - on IRC using `/msg vilmibm hello`
 - via local tilde.town email, e.g. `vilmibm@tilde.town`
-- or via normal internet e-mail at the addresses listed above. 
+- or via normal internet e-mail at the addresses listed above.
 
 10. License and Attribution
 ---------------------------
