@@ -56,5 +56,6 @@ we have an internal command-line blogging platform. to use it, run:
 - [mud.tilde.town](http://github.com/selfsame/mud.tilde.town)
 - - local server: "telnet localhost 5071"
 - [music sharing](/~desvox/music.html)
+- [tilde.town cadastre](/~troido/cadastre)
 
 If you notice anything else cool and useful around town, feel free to add it here!
