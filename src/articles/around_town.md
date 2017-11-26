@@ -49,13 +49,25 @@ we have an internal command-line blogging platform. to use it, run:
 
 [more info here](http://tilde.town/~endorphant/ttbp)
 
+## Games on tilde.town
 
-## More
-- [Code on ~.town](/~bear/code.html)
 - [nethack empire](/~endorphant/nethackempire.html)
 - [mud.tilde.town](http://github.com/selfsame/mud.tilde.town)
 - - local server: "telnet localhost 5071"
-- [music sharing](/~desvox/music.html)
-- [tilde.town cadastre](/~troido/cadastre)
+- [`botany`](https://github.com/jifunks/botany) - Grow a plant in our communal garden
+- [`asciifarm`](https://github.com/jmdejong/asciifarm)
+
+## More
+
+- [Code on ~.town](/~bear/code.html) - See what others coded on tilde.town
+- [music sharing](/~desvox/music.html) - Share your favorite songs
+- [tilde.town cadastre](/~troido/cadastre) - ASCII art tilde.town
+- [watch some shrimps](/~owenversteeg) - watch some shrimps at the command
+  line
+- `random_pokemon.sh` - Get an ASCII art pokemon
+- `birthday` - Publish your birthday
+- `pairing` - share tmux sessions with people on tilde
+- `shadowland` - A forum in the shadowrun universe
+- `tweet` or `toot` something
 
 If you notice anything else cool and useful around town, feel free to add it here!
