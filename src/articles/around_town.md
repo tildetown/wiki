@@ -61,6 +61,7 @@ we have an internal command-line blogging platform. to use it, run:
 
 - [Code on ~.town](/~bear/code.html) - See what others coded on tilde.town
 - [music sharing](/~desvox/music.html) - Share your favorite songs
+- [video sharing](/~resir014/tildetv/) - Share your favorite youtube videos
 - [tilde.town cadastre](/~troido/cadastre) - ASCII art tilde.town
 - [watch some shrimps](/~owenversteeg) - watch some shrimps at the command
   line
@@ -68,6 +69,6 @@ we have an internal command-line blogging platform. to use it, run:
 - `birthday` - Publish your birthday
 - `pairing` - share tmux sessions with people on tilde
 - `shadowland` - A forum in the shadowrun universe
-- `tweet` or `toot` something
+- `tweet` or `toot` something (`tweet` currently defunct)
 
 If you notice anything else cool and useful around town, feel free to add it here!
