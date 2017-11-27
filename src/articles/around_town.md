@@ -65,6 +65,8 @@ we have an internal command-line blogging platform. to use it, run:
 - [tilde.town cadastre](/~troido/cadastre) - ASCII art tilde.town
 - [watch some shrimps](/~owenversteeg) - watch some shrimps at the command
   line
+- [see location of townies](/~bear/where.html) - see where in the world
+  townies are
 - `random_pokemon.sh` - Get an ASCII art pokemon
 - `birthday` - Publish your birthday
 - `pairing` - share tmux sessions with people on tilde
