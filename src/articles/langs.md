@@ -17,7 +17,7 @@ listed by the name of their cli binary
 * prolog | swipl
 * bwbasic (bywater BASIC)
 * erl (erlang)
-* go (go-lang
+* go (go-lang)
 * rustc (rust)
 * apl
 * i7 (Inform7)
