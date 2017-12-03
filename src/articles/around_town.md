@@ -72,5 +72,6 @@ we have an internal command-line blogging platform. to use it, run:
 - `pairing` - share tmux sessions with people on tilde
 - `shadowland` - A forum in the shadowrun universe
 - `tweet` or `toot` something (`tweet` currently defunct)
+- [~.town fortunes](/~random/tilde-fortune) - get a random tip, joke, recommendation from another townie
 
 If you notice anything else cool and useful around town, feel free to add it here!
