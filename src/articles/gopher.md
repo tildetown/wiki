@@ -3,6 +3,8 @@ Gopher Wiki
 
 [2007 Gopherspace Mirror](https://archive.org/details/2007-gopher-mirror)
 
+[A video on Gopher](https://www.youtube.com/watch?v=JbJKf0UOGAc)
+
 **How to Edit Gopher Map**
 
     1.0     Text file
