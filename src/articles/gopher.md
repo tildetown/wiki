@@ -5,37 +5,43 @@ Gopher Wiki
 
 **How to Edit Gopher Map**
 
-*0      Text file
-*1      Directory
-*2      CSO name server
-*3      Error
-*4      Mac HQX filer
-*5      PC binary
-*6      UNIX uuencoded file
-*7      Search server
-*8      Telnet Session
-*9      Binary File
-*c      Calendar (not in 2.06)
-*e      Event (not in 2.06)
-*g      GIF image
-*h      HTML, Hypertext Markup Language
-*i      "inline" text type
-*s      Sound
-*I      Image (other than GIF)
-*M      MIME multipart/mixed message
-*T      TN3270 Session/
+```
+1.0     Text file
+2.1     Directory
+3.2     CSO name server
+4.3     Error
+5.4     Mac HQX filer
+6.5     PC binary
+7.6     UNIX uuencoded file
+8.7     Search server
+9.8     Telnet Session
+10.9    Binary File
+11.c    Calendar (not in 2.06)
+12.e    Event (not in 2.06)
+13.g    GIF image
+14.h    HTML, Hypertext Markup Language
+15.i    "inline" text type
+16.s    Sound
+17.I    Image (other than GIF)
+18.M    MIME multipart/mixed message
+19.T    TN3270 Session/
+```
 
 **Gopher Map Example**
 
-Welcome to my Gopherspace!
+```
+Welcome to my Gopher page!
 
 0My text file   file1.txt
 9My pdf file    file2.pdf
 1My dir dir
 
-0Why is Gopher Still Relevant?  /gopher/relevance.txt   gopher.floodgap.com     70
-hAn http link   URL:http://tilde.town/
+1.0Why is Gopher Still Relevant?        /gopher/relevance.txt   gopher.floodgap.com     70
+2.hAn http link URL:http://tilde.town/
+```
 
 **References**
+
 [SDF Gophermap Guide](http://sdf.org/?tutorials/gopher)
-[SDF Gophermap Guide Archive](https://web.archive.org/web/20101005063208/http://sdf.org/?tutorials/gopher
+
+[SDF Gophermap Guide Archive](https://web.archive.org/web/20101005063208/)
