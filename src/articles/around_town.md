@@ -56,6 +56,7 @@ we have an internal command-line blogging platform. to use it, run:
 - - local server: "telnet localhost 5071"
 - [`botany`](https://github.com/jifunks/botany) - Grow a plant in our communal garden
 - [`asciifarm`](https://github.com/jmdejong/asciifarm)
+- `tron` to play a local, multiplayer ascii tron
 
 ## More
 
