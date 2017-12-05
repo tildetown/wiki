@@ -57,6 +57,7 @@ we have an internal command-line blogging platform. to use it, run:
 - [`botany`](https://github.com/jifunks/botany) - Grow a plant in our communal garden
 - [`asciifarm`](https://github.com/jmdejong/asciifarm)
 - `tron` to play a local, multiplayer ascii tron
+- `writo` to wander through an infinite grafitti wall and draw things
 
 ## More
 
