@@ -14,8 +14,10 @@ wiki init
 and follow the prompts. once it's done, you can edit the files, add new files,
 or create and populate new directories. check the changes you make with:
 
-    wiki preview
-    w3m tilde.town/~YOU/wiki
+```
+wiki preview
+w3m tilde.town/~YOU/wiki
+```
 
 where `YOU` is your username.
 
