@@ -7,7 +7,9 @@ various art projects, guides on linux, fiction, and other wonderful content.
 
 all users can edit this wiki. from your home directory, run:
 
-    wiki init
+```
+wiki init
+```
 
 and follow the prompts. once it's done, you can edit the files, add new files,
 or create and populate new directories. check the changes you make with:
