@@ -4,7 +4,7 @@
 - click OPEN NETWORK STREAM... 
 - paste rtmp://graveyardtheory.net:1935/mytv/feelsmustflow into the network url box
 - click the PLAY button at the bottom
-- wait a bit, if it doesn't play, click vlc's playbuttonx.
+- wait a bit, if it doesn't play, click vlc's play button.
 
 # ----SOUND OUT OF BOTH SPEAKERS----
 - click AUDIO at the top
