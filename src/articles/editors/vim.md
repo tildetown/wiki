@@ -19,6 +19,10 @@ of your screen. Type `w` and hit `enter`. You just saved your file.
 
 To quit, make sure you are in normal mode. press `:`, type `q`, and hit enter.
 
+If you've made an edit, you wont be able to quite using just `:q`, though.  If
+you want to abandon your changes, use `:`, and then type `q!`, and then hit
+enter.  To save changes,  use `:`, and then type `wq`, and then hit enter.
+
 For a more in depth tutorial on vim, check out this cool [interactive
 tutorial](http://www.openvim.com/).
 
