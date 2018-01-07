@@ -1,6 +1,10 @@
 Gopher Wiki
 ============
 
+Gopher is a pre-web internet protocol based on a hierarchy of menus and documents.
+To get started with Gopher on the town, make a `public_gopher` directory in your home and it will be listed on the main menu of [gopher://tilde.town](gopher://tilde.town)
+Create a file named `gophermap` to add information, links, and labels for files. 
+
 [2007 Gopherspace Mirror](https://archive.org/details/2007-gopher-mirror)
 
 [A video on Gopher](https://www.youtube.com/watch?v=JbJKf0UOGAc)
