@@ -117,7 +117,7 @@ This section details the various responsibilities of a volunteer admin.
 
 ### Field helpdesk tickets
 
-- Login to [https://cgi.tilde.town/admin]
+- Login to [https://cgi.tilde.town/admin]()
 - Click on Tickets
 - Click on a ticket marked **to triage**
 - If the ticket asks for something you can do, update the ticket's status to **Acknowledged** and then do it. Once you're done, mark it as **Nothing more to do**.
