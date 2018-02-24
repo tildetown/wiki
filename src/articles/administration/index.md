@@ -243,3 +243,12 @@ restarting if the server restarts):
 
 Our shared Starbound server runs on a different server than tilde.town proper.
 Only ~vilmibm can log into it and use root there.
+
+### Add a new volunteer admin
+
+- Find them in the admin app (Auth -> Users)
+- Mark them as staff (this enables logging into the admin)
+- Add them to the **Volunteer** Admins group
+- Generate a temporary password and send it to them
+- Have them change that password via the password reset form (linked from any User page)
+- Have them verify they can log in
