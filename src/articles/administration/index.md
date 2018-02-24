@@ -117,7 +117,7 @@ This section details the various responsibilities of a volunteer admin.
 
 ### Field helpdesk tickets
 
-- Login to [https://cgi.tilde.town/admin]()
+- Login to [the admin app](https://cgi.tilde.town/admin)
 - Click on Tickets
 - Click on a ticket marked **to triage**
 - If the ticket asks for something you can do, update the ticket's status to **Acknowledged** and then do it. Once you're done, mark it as **Nothing more to do**.
@@ -133,7 +133,7 @@ until an admin approves them.
 
 To review and add a user:
 
-- Login to [https://cgi.tilde.town/admin]
+- Login to [the admin app](https://cgi.tilde.town/admin)
 - Click on Townies
 - For each user account, check their information:
     - Does their email already have an account here? (see related [issue](https://github.com/tildetown/tildetown-admin/issues/31))
@@ -151,7 +151,7 @@ To review and add a user:
 
 ### Add a public key for a user
 
-- Login to [https://cgi.tilde.town/admin]
+- Login to [the admin app](https://cgi.tilde.town/admin)
 - Click on Townies
 - Find the user (searching for their username works) and click on them
 - Scroll to the **PUBKEYS** section
@@ -168,7 +168,7 @@ You should probably let the user know this is done.
 Should a user request a rename in a help desk ticket, the process is:
 
 - Is the new username taken? Stop and let them know via email if so.
-- Login to [https://cgi.tilde.town/admin]
+- Login to [the admin app](https://cgi.tilde.town/admin)
 - Click on Townies
 - Find the user (searching for their username works) and click on them
 - Update their "username" field.
@@ -181,7 +181,7 @@ You should probably let the user know this is done.
 
 ### Moderate the guestbook
 
-- Login to [https://cgi.tilde.town/admin]
+- Login to [the admin app](https://cgi.tilde.town/admin)
 - Click on **Guestbook messages**
 - For any messages that are obviously spam (and not funny or tasteful enough to keep), select them with the checkbox to the left
 - In the **Action:** dropdown, select **Delete selected guestbook messages**.
