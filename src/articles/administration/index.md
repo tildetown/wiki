@@ -197,14 +197,6 @@ If a volunteer admin (or ~vilmibm themself) loses operator status for some reaso
 
 ## Admin Only Tasks
 
-### Run chsh or chfn for a user
-
-Currently, if users want a shell other than bash they have to ask an admin to do it since users do not get passwords on tilde.town (and the `chsh` program requires a password).
-
-This [should be
-automated](https://github.com/tildetown/tildetown-admin/issues/29), either as a
-volunteer admin task or a self-service tool.
-
 ### Install new software
 
 Only root can run `apt`. If you want software installed, file a help ticket.
