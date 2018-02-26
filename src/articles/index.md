@@ -1,5 +1,5 @@
 # welcome to tilde.town's wiki!
-
+test
 the tilde.town wiki houses our server-specific documentation, pages about
 various art projects, guides on linux, fiction, and other wonderful content.
 
