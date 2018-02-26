@@ -29,3 +29,4 @@ listed by the name of their cli binary
 * sbcl (steel bank common lisp)
 * chicken (scheme)
 * lumo (node clojurescript)
+* picolisp
