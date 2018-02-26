@@ -90,7 +90,7 @@ Volunteer admins **CANNOT**:
 - delete public keys
 
 Currently they don't receive special privileges on tilde.town itself, though
-this will opefully change.
+this will hopefully change.
 
 The current volunteer admins:
 
