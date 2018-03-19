@@ -21,6 +21,7 @@ a non-exhaustive list of channels on the town irc server
 * *#bots*: ircbots/games; can be extremely noisy at times
 * *#dev*: discussion/testing/coding advice
 * *#music*: share songs, talk about music
+* *#abookclub*: discussions about books/reading
 * *#engines*: cars, motorcycles, machine nerds, etc.
 * *#go*: discussion about the board game go/weiqi/baduk; includes a crude ascii
   goban bot
