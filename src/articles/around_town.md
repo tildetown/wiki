@@ -3,7 +3,15 @@ Around Tilde Town
 
 - [Pages updated this week](/~ags/updated.html)
 
-## Local, real-time chat (IRC)
+## Socializing on ~town
+
+### mail
+
+tilde.town's mail server cannot send outgoing mail or accept incoming mail;
+it's for contacting other users on the server internally only. try `mutt` or
+`alpine` to check your tildemail!
+
+### IRC
 
 Join the chat with the `chat` command. Anyone can create a channel, or join an existing one:
 
@@ -16,48 +24,69 @@ Join the chat with the `chat` command. Anyone can create a channel, or join an e
 - &#35;dumpsterfire
 - &#35;starbound
 
+For more information, see the [IRC wiki](irc.html)!
+
 ### #fridaypostcard
-[View postcards](http://tilde.town/~jumblesale/fp.html)
+[View postcards](/~jumblesale/fp.html)
 
 To contribute: share a link to an image on IRC with the text _#fridaypostcard_. Updated every Friday.
 
-### !tilde game
-[View all scores](http://tilde.town/~bear/tildescores.html)
+### !tilde game (irc)
+[View all scores](/~bear/tildescores.html)
 
 To play: `/join #bots` and type _!tilde_ to get tildes.
 
 To view your score: Type _!tildescore_ in #bots
 
-### txtminebot
+### bbj
 
-[current game status](http://tilde.town/~endorphant/plaintxtmines/world.html)
+Join our internal forum with `bbj` and follow the instructions to set up an account!
 
-To play: `/join #bots` and type `!strike` and the bot will give you more instructions.
+### blogging with `feels`
 
-Type `!commands` for a list of valid commands.
+We have an internal command-line blogging platform. To use it, run:
+`feels` while logged in to tilde.town.
+
+[more info here](/~endorphant/ttbp)
+
+### exchange coins
+
+To participate in tilde.town's internal economy, run `tcoin`; all users get
+1000 coins to start, and can send and receive coins from other users.
 
 ## For your public\_html/
 
 ### tilde.town ring
-[View all ~ring members](http://tilde.town/~um/tilde_ring/members.html)
+[View all ~ring members](/~um/tilde_ring/members.html)
 
-[Join](http://tilde.town/~um/tilde_ring/join.html) the ~ring.
+[Join](/~um/tilde_ring/join.html) the ~ring.
 
-### blog on TTBP
-we have an internal command-line blogging platform. to use it, run:
-`~endorphant/bin/ttbp` while logged in to tilde.town.
+### blog posts
 
-[more info here](http://tilde.town/~endorphant/ttbp)
+[feels](/~endorphant/ttbp) can automatically post entries to
+your public_html; just enable publishing from the settings menu!
+
+## gopher
+
+gopher is a pre-web, text-only technology that uses a directory structure to
+navigate documents instead of hyperlinks. tilde.town's server can be found at
+gopher://tilde.town:70, and you can make your own gopherhole by creating
+`public_gopher` in your home directory. you'll need a gopher-compatible browser
+(try `lynx gopher://tilde.town:70`) to view gopher pages.
+
+[full guide](gopher.html)
 
 ## Games on tilde.town
 
-- [nethack empire](/~endorphant/nethackempire.html)
 - [mud.tilde.town](http://github.com/selfsame/mud.tilde.town)
 - - local server: "telnet localhost 5071"
 - [`botany`](https://github.com/jifunks/botany) - Grow a plant in our communal garden
 - [`asciifarm`](https://github.com/jmdejong/asciifarm)
 - `tron` to play a local, multiplayer ascii tron
 - `writo` to wander through an infinite grafitti wall and draw things
+- `usolitaire` to play command-line solitaire! click the cards to move them!
+- `nethack` to play the classic dungeon explorer
+- `atc` to play an ascii airport game
 
 ## More
 
@@ -75,5 +104,6 @@ we have an internal command-line blogging platform. to use it, run:
 - `shadowland` - A forum in the shadowrun universe
 - `tweet` or `toot` something (`tweet` currently defunct)
 - [~.town fortunes](/~random/tilde-fortune) - get a random tip, joke, recommendation from another townie
+- [`holodeck`](/~ne1/code.html) - a shared storytelling tool
 
 If you notice anything else cool and useful around town, feel free to add it here!
