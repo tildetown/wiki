@@ -17,12 +17,9 @@ Join the chat with the `chat` command. Anyone can create a channel, or join an e
 
 - &#35;tildetown (default)
 - &#35;bots
-- &#35;coding
 - &#35;music
-- &#35;poetry
 - &#35;dev
 - &#35;dumpsterfire
-- &#35;starbound
 
 For more information, see the [IRC wiki](irc.html)!
 
