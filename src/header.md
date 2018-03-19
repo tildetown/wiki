@@ -21,6 +21,10 @@
       color: black;
       text-decoration:underline;
     }
+
+    p {
+      padding-left: 1em;
+    }
   </style>
 </head>
 <body>
