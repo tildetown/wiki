@@ -75,15 +75,8 @@ gopher://tilde.town:70, and you can make your own gopherhole by creating
 
 ## Games on tilde.town
 
-- [mud.tilde.town](http://github.com/selfsame/mud.tilde.town)
-- - local server: "telnet localhost 5071"
-- [`botany`](https://github.com/jifunks/botany) - Grow a plant in our communal garden
-- [`asciifarm`](https://github.com/jmdejong/asciifarm)
-- `tron` to play a local, multiplayer ascii tron
-- `writo` to wander through an infinite grafitti wall and draw things
-- `usolitaire` to play command-line solitaire! click the cards to move them!
-- `nethack` to play the classic dungeon explorer
-- `atc` to play an ascii airport game
+The games have now [their own pages](games.html) for convenience.
+
 
 ## More
 
