@@ -78,3 +78,16 @@ video](https://asciinema.org/a/96532) and to play it, just enter these three
 letters in your terminal:
 
     atc
+
+## Zork I
+
+[Zork](https://en.wikipedia.org/wiki/Zork) is a text only interactive fiction
+computer game. You'll need to explore the "Great Underground Empire" and
+complete all the adventures. In order to play, you'll need to interact with
+various commands ([some described
+here](https://en.wikipedia.org/wiki/Zork#Commands)).
+
+The game can be played thanks to the web application Parchment hosted on
+[tom](/~tom/)'s webspace. So, in order to play, just [click
+here](https://tilde.town/~tom/zork.html?story=stories/zdungeon.z5.js). Note
+that because of the use of Parchment you'll not be able to `save` your game.
