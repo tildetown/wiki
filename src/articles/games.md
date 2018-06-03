@@ -59,6 +59,14 @@ and move the cards by clicking on them:
 
     usolitaire
 
+## chin
+
+chin is command-line chinchirorin, a Japanese game played with three dice in
+a small bowl. It appears in the games Suikoden and Suikoden II, and in the 
+manga and anime Kaiji. To play, enter the following command:
+
+    chin
+
 ## nethack
 
 [NetHack](https://alt.org/nethack/) is a roguelike game. After choosing your
