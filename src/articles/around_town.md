@@ -54,9 +54,9 @@ To participate in tilde.town's internal economy, run `tcoin`; all users get
 ## For your public\_html/
 
 ### tilde.town ring
-[View all ~ring members](/~um/tilde_ring/members.html)
+[View all ~ring members](/~eeeeeta/ring/members.html)
 
-[Join](/~um/tilde_ring/join.html) the ~ring.
+[Join](/~eeeeeta/ring/join.html) the ~ring.
 
 ### blog posts
 
