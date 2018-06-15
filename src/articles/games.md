@@ -74,7 +74,7 @@ is navigating through the world, looking at things, and describing things in
 the world. It is a world we explore and experience together, while wandering
 around adding more detail to the world as well as creating new areas to
 explore and add more detail to. It's like walking through a storybook written
-by all the players. [More information here.](/~ne1/code.html) To play holodeck,
+by all the players ([more information here](/~ne1/code.html)). To play holodeck,
 enter the following command:
 
     holodeck
