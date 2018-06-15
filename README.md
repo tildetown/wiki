@@ -1,4 +1,4 @@
-# the tilde.town wiki
+# l00 test - the tilde.town wiki
 
 This repository contains the source for the community maintained wiki at
 tilde.town.

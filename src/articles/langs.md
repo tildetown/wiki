@@ -19,8 +19,8 @@ listed by the name of their cli binary
 * erl (erlang)
 * go (go-lang)
 * rustc (rust)
-* apl
-* i7 (Inform7)
+* apl (gnu apl)
+* i7 (Inform7, glulxe for running .ulx)
 
 ### Lisps
 
@@ -29,4 +29,4 @@ listed by the name of their cli binary
 * sbcl (steel bank common lisp)
 * chicken (scheme)
 * lumo (node clojurescript)
-* carp (carp-lang)
+* picolisp

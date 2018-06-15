@@ -65,7 +65,7 @@ Community event venues--physical or digital--may be shared with members
 of the public; please be respectful to all patrons of these locations.
 
 Harassment includes: harmful or prejudicial verbal or written comments
-related to gender, sexual orientation, race, religious choices,
+related to gender, age, sexual orientation, race, religious choices,
 disability; inappropriate use of nudity and/or sexual images in public
 spaces (like your \~ html pages); deliberate intimidation, stalking, or
 following; harassing recording; sustained disruption of the work of

@@ -3,7 +3,12 @@
 the tilde.town wiki houses our server-specific documentation, pages about
 various art projects, guides on linux, fiction, and other wonderful content.
 
-## how to use!
+## navigating
+
+check out the [table of contents](toc.html) for all the pages, or [around
+town](around_town.html) for a summary of things to do!
+
+## how to contribute
 
 all users can edit this wiki. from your home directory, run:
 
@@ -38,5 +43,3 @@ to list the contents of the wiki, run
 as always on the town, folks are here to help each other. if you run into
 problems feel free to ask for help. and maybe document the answer on the wiki
 for the next person :D
-
-### this is an endorphial test
