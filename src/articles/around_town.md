@@ -29,7 +29,7 @@ For more information, see the [IRC wiki](irc.html)!
 To contribute: share a link to an image on IRC with the text _#fridaypostcard_. Updated every Friday.
 
 ### !tilde game (irc)
-[View all scores](/~bear/tildescores.html)
+[View all scores](/~login/tildebot.txt)
 
 To play: `/join #bots` and type _!tilde_ to get tildes.
 
@@ -51,10 +51,12 @@ We have an internal command-line blogging platform. To use it, run:
 To participate in tilde.town's internal economy, run `tcoin`; all users get
 1000 coins to start, and can send and receive coins from other users.
 
+[more info here](/~login/tcoin.html)
+
 ## For your public\_html/
 
 ### tilde.town ring
-[View all ~ring members](/~eeeeeta/ring/members.html)
+[View all ~ring members](/~eeeeeta/ring/members.html) ([tidier version](/~login/tilde_ring_members.html))
 
 [Join](/~eeeeeta/ring/join.html) the ~ring.
 
@@ -62,6 +64,15 @@ To participate in tilde.town's internal economy, run `tcoin`; all users get
 
 [feels](/~endorphant/ttbp) can automatically post entries to
 your public_html; just enable publishing from the settings menu!
+
+### tildebook
+
+[tildebook](/~login/tildebook/) is tilde.town's unofficial user directory!
+To add your profile, simply create `tildebook_profile.html` in your
+public_html and run `/home/login/cronjobs/update_tildebook` to have it
+added in as an `<iframe>`.
+
+[guidelines](/~login/tildebook_guidelines.html)
 
 ## gopher
 
@@ -94,6 +105,6 @@ The games have now [their own pages](games.html) for convenience.
 - `shadowland` - A forum in the shadowrun universe
 - `tweet` or `toot` something (`tweet` currently defunct)
 - [~.town fortunes](/~random/tilde-fortune) - get a random tip, joke, recommendation from another townie
-- [`holodeck`](/~ne1/code.html) - a shared storytelling tool
+- [holodeck](/~ne1/code.html) - a shared storytelling tool
 
 If you notice anything else cool and useful around town, feel free to add it here!
