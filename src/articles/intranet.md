@@ -20,7 +20,7 @@ in `public_html`. The latter is for the internet (public for the world
 to see) and the former is for the intranet (only other townies can see 
 them).
 
-## How to access the intranet
+## How to connect to the intranet
 
 Two very simple scripts placed in a convenient directory are all you 
 need to switch on and switch off your connection to tilde.town's 
@@ -38,8 +38,8 @@ The first one is called `ttci` (tilde.town connect intranet):
 <code><pre>
 \#!/bin/bash
 \#ttci = tilde.town connect intranet
-ssh -N login@tilde.town -L localhost:12345:localhost:12345 -i 
-~/.ssh/tilde.town &
+ssh -N <your_username>@tilde.town -L localhost:12345:localhost:12345 -i 
+~/.ssh/<your_private_key_file> &
 echo $! > ssh_pid
 </code></pre>
 
@@ -53,6 +53,8 @@ then
   rm ssh_pid
 fi
 </code></pre>
+
+## How to browse the intranet
 
 Once you've run `ttci` to connect, instead of going to 
 `https://tilde.town/~endorphant/` you should go to 
