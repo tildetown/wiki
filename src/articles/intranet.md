@@ -22,6 +22,30 @@ them).
 
 ## How to connect to the intranet
 
+
+add the following block to ~/.ssh/config on your local machine (create it if it doesn't exist)
+
+```
+Host town
+Hostname tilde.town
+User your_username_here
+LocalForward 12345:localhost:12345
+```
+
+then on your local machine, you can simply run `ssh town` and a magical intertube will be created
+for you to visit the tildtranet along with your normal shell session.
+the magical intertube will close as soon as your shell session does.
+
+try this link: [http://localhost:12345/~login/](http://localhost:12345/~login/)
+
+alternately, you can type in this magical incantation if you don't want to bother with ssh_config
+
+`ssh -L 12345:localhost:12345 username@tilde.town`
+
+---
+
+another option is to use some scripts to manage your ssh tunnel:
+
 Two very simple scripts placed in a convenient directory are all you 
 need to switch on and switch off your connection to tilde.town's 
 intranet. You should run these scripts using the same terminal you use 
@@ -33,26 +57,27 @@ them executable. Then run the first one (`./ttci`) when you need
 to connect to the intranet and the second one (`./ttciend`) when you 
 want to disconnect from the intranet.
 
+
 The first one is called `ttci` (tilde.town connect intranet):
 
-<code><pre>
+```
 \#!/bin/bash
 \#ttci = tilde.town connect intranet
 ssh -N <your_username>@tilde.town -L localhost:12345:localhost:12345 -i 
 ~/.ssh/<your_private_key_file> &
 echo $! > ssh_pid
-</code></pre>
+```
 
 The second one is called `ttciend` (tilde.town connect intranet end):
 
-<code><pre>
+```
 \#!/bin/bash
 if [ -e ssh_pid ] 
 then
   kill `cat ssh_pid`
   rm ssh_pid
 fi
-</code></pre>
+```
 
 ## How to browse the intranet
 
