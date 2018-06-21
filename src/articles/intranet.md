@@ -25,12 +25,12 @@ them).
 
 add the following block to ~/.ssh/config on your local machine (create it if it doesn't exist)
 
-```
+<code><pre>
 Host town
 Hostname tilde.town
 User your_username_here
 LocalForward 12345:localhost:12345
-```
+</pre></code>
 
 then on your local machine, you can simply run `ssh town` and a magical intertube will be created
 for you to visit the tildtranet along with your normal shell session.
@@ -40,7 +40,7 @@ try this link: [http://localhost:12345/~login/](http://localhost:12345/~login/)
 
 alternately, you can type in this magical incantation if you don't want to bother with ssh_config
 
-`ssh -L 12345:localhost:12345 username@tilde.town`
+`ssh -L 12345:localhost:12345 your_username_here@tilde.town`
 
 ---
 
