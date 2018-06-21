@@ -10,7 +10,7 @@ browser.
 
 Simply create a `private_html` directory in your home directory.
 
-```bash
+```
 cd ~
 mkdir private_html
 ```
@@ -35,7 +35,7 @@ want to disconnect from the intranet.
 
 The first one is called `ttci` (tilde.town connect intranet):
 
-```bash
+```
 #!/bin/bash
 #ttci = tilde.town connect intranet
 ssh -N login@tilde.town -L localhost:12345:localhost:12345 -i 
@@ -45,7 +45,7 @@ echo $! > ssh_pid
 
 The second one is called `ttciend` (tilde.town connect intranet end):
 
-```bash
+```
 #!/bin/bash
 if [ -e ssh_pid ] 
 then
