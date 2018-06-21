@@ -10,10 +10,10 @@ browser.
 
 Simply create a `private_html` directory in your home directory.
 
-```
+<code><pre>
 cd ~
 mkdir private_html
-```
+</pre></code>
 
 Then, go into your `private_html` and add HTML files just like you would 
 in `public_html`. The latter is for the internet (public for the world 
@@ -35,24 +35,24 @@ want to disconnect from the intranet.
 
 The first one is called `ttci` (tilde.town connect intranet):
 
-```
+<code><pre>
 #!/bin/bash
 #ttci = tilde.town connect intranet
 ssh -N login@tilde.town -L localhost:12345:localhost:12345 -i 
 ~/.ssh/tilde.town &
 echo $! > ssh_pid
-```
+</code></pre>
 
 The second one is called `ttciend` (tilde.town connect intranet end):
 
-```
+<code><pre>
 #!/bin/bash
 if [ -e ssh_pid ] 
 then
   kill `cat ssh_pid`
   rm ssh_pid
 fi
-```
+</code></pre>
 
 Once you've run `ttci` to connect, instead of going to 
 `https://tilde.town/~endorphant/` you should go to 
