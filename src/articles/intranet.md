@@ -36,8 +36,8 @@ want to disconnect from the intranet.
 The first one is called `ttci` (tilde.town connect intranet):
 
 <code><pre>
-#!/bin/bash
-#ttci = tilde.town connect intranet
+\#!/bin/bash
+\#ttci = tilde.town connect intranet
 ssh -N login@tilde.town -L localhost:12345:localhost:12345 -i 
 ~/.ssh/tilde.town &
 echo $! > ssh_pid
@@ -46,7 +46,7 @@ echo $! > ssh_pid
 The second one is called `ttciend` (tilde.town connect intranet end):
 
 <code><pre>
-#!/bin/bash
+\#!/bin/bash
 if [ -e ssh_pid ] 
 then
   kill `cat ssh_pid`
