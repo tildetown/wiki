@@ -3,7 +3,7 @@
 There is an informal intranet on tilde.town accessible at 
 `localhost:12345`. You can access this after logging into tilde.town 
 using [lynx](https://linux.die.net/man/1/lynx), or you can use `ssh`'s 
-local port forwarding to acess the intranet from your favorite web 
+local port forwarding to access the intranet from your favorite web 
 browser.
 
 ## How to add pages to your intranet
