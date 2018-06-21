@@ -29,7 +29,7 @@ add the following block to ~/.ssh/config on your local machine (create it if it 
 Host town
 Hostname tilde.town
 User your_username_here
-LocalForward 12345:localhost:12345
+LocalForward localhost:12345 localhost:12345
 </pre></code>
 
 then on your local machine, you can simply run `ssh town` and a magical intertube will be created
