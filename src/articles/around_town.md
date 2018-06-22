@@ -69,10 +69,8 @@ your public_html; just enable publishing from the settings menu!
 
 [tildebook](/~login/tildebook/) is tilde.town's unofficial user directory!
 To add your profile, simply create `tildebook_profile.html` in your
-public_html and run `/home/login/cronjobs/update_tildebook` to have it
-added in as an `<iframe>`.
-
-[guidelines](/~login/tildebook_guidelines.html)
+public_html (with a size of 144px &times; 144px) and run
+`/home/login/cronjobs/update_tildebook` to have it added in as an `<iframe>`.
 
 ## gopher
 
