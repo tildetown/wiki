@@ -40,12 +40,12 @@ a non-exhaustive list of channels on the town irc server
 
 ~town is also part of a wider network of tildes: [tilde.chat](https://tilde.chat).
 the tilde.chat network is run by member nodes (currently ~town, tilde.team, and yourtilde.com)
-and exists as a place for to share and collaborate with other tilders even if they don't happen to 
-be townies.
+and exists as a place to share and collaborate with other tilde members.
 
-to connect, you can see the configuration settings on the [tilde.chat](https://tilde.chat) site and connect
-with those credentials. otherwise, you can follow these steps to get some more tilde goodness in your chat:
+to connect, you can use the configuration settings on the [tilde.chat](https://tilde.chat) site and connect
+with those credentials.
 
+or, you can follow these steps to connect through the ~town node:
 
 in chat (which is weechat btw):
 <pre><code>
