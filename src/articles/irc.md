@@ -35,6 +35,32 @@ a non-exhaustive list of channels on the town irc server
   heated discussions
 * *#ttbp*: dev updates, troubleshooting, etc. for the feels engine
 
+
+## tildeverse irc
+
+~town is also part of a wider network of tildes: [tilde.chat](https://tilde.chat).
+the tilde.chat network is run by member nodes (currently ~town, tilde.team, and yourtilde.com)
+and exists as a place to share and collaborate with other tilde members.
+
+to connect, you can use the configuration settings on the [tilde.chat](https://tilde.chat) site and connect
+with those credentials.
+
+or, you can follow these steps to connect through the ~town node:
+
+in chat (which is weechat btw):
+<pre><code>
+/server add tildeverse 127.0.0.1/7766
+/connect tildeverse
+</code></pre>
+
+connecting through the town node grants you access to the town-only channel #town. besides the other
+local channels on each member node, all other channels are shared across tildes and will be visible to
+other tilde members.
+
+tilde.chat has the same expectations of culture and sharing and kindness as the internal irc chat.
+come share the love :)
+
+
 ## irc bots
 
 see the [irc bots wiki page](bots/ircbots.html)
