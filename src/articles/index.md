@@ -40,6 +40,10 @@ to list the contents of the wiki, run
 
     wiki get toc
 
+to sync the contents of your version of the wiki with the published version, run
+
+    wiki sync
+
 as always on the town, folks are here to help each other. if you run into
 problems feel free to ask for help. and maybe document the answer on the wiki
 for the next person :D
