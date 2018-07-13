@@ -7,4 +7,4 @@ Owner: [~deltawitch](https://tilde.town/~deltawitch)
 
 ## Commands and more info
 
-An updated list of commands and more information about kelpiebot can be found [here](https://tilde.town/~deltawitch/projects.html).
+[An updated list of commands and more information about kelpiebot can be found here](https://tilde.town/~deltawitch/projects.html).
