@@ -1,7 +1,7 @@
 txtminebot
 ==========
 
-owner: [~endorphant](http://tilde.town/~endorphant) | [source](https://github.com/modgethanc/plaintxtmines/tree/master)
+owner: [~endorphant](https://tilde.town/~endorphant) | [source](https://github.com/modgethanc/plaintxtmines/tree/master)
 
 *A dystopian fantasy mining adventure.*
 

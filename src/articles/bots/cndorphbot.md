@@ -1,7 +1,7 @@
 cndorphbot
 ==========
 
-owner: [~endorphant](http://tilde.town/~endorphant) | [source](http://tilde.town/~endorphant/cndorphbot.py.txt)
+owner: [~endorphant](https://tilde.town/~endorphant) | [source](http://tilde.town/~endorphant/cndorphbot.py.txt)
 
 *A personal bot friend.*
 

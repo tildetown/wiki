@@ -1,7 +1,7 @@
 minerbot
 ==========
 
-Owner: [~minerobber](http://tilde.town/~minerobber)
+Owner: [~minerobber](https://tilde.town/~minerobber)
 
 *A burnt-spaghetti-esque mess of code.*
 

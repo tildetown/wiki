@@ -29,3 +29,4 @@ But basically just snoop other people's bot scripts and ask questions in IRC.
 * sameself ([source](http://tilde.town/~selfsame/dev/sameself.py))
 * cosnok ([source](https://github.com/tahnok/cosnok) (patches welcome))
 * minerbot ([page](minerbot.html))
+* kelpiebot ([page](kelpiebot.html))
