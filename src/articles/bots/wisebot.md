@@ -9,7 +9,7 @@ Owner: [~ensis](https://tilde.town/~ensis)
 
 * __!wisehelp &lt;module&gt;__ displays help for a module.
 * __!remindme__ reminds you of something. *Usage:* `{!remindme, wisebot: remind me} {1H30M|next week at 10:00|in 2 days} ['MSG']`
-* __!rollcall__ lists all available modules and functions *Usage:* `{!rollcall, wisebot: rollcall}
+* __!rollcall__ lists all available modules and functions *Usage:* `{!rollcall, wisebot: rollcall}`
 * __wisebot: report__ shows tildebot's score
 
 ## More info
