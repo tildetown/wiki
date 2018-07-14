@@ -7,10 +7,10 @@ Owner: [~ensis](https://tilde.town/~ensis)
 
 ## Commands
 
-* _!wisehelp <module>_ displays help for a module.
-* _!remindme_ reminds you of something. *Usage:* `{!remindme, wisebot: remind me} {1H30M|next week at 10:00|in 2 days} ['MSG']`
-* _!rollcall_ lists all available modules and functions *Usage:* `{!rollcall, wisebot: rollcall}
-* _wisebot: report_ shows tildebot's score
+* __!wisehelp &lt;module&gt;__ displays help for a module.
+* __!remindme__ reminds you of something. *Usage:* `{!remindme, wisebot: remind me} {1H30M|next week at 10:00|in 2 days} ['MSG']`
+* __!rollcall__ lists all available modules and functions *Usage:* `{!rollcall, wisebot: rollcall}
+* __wisebot: report__ shows tildebot's score
 
 ## More info
 wisebot autonomously answers tildebot's questions and collects tildes for itself (also winning the same number of tildecoins). It does this by running `!tilde` in `#bots` every 1 hour and 1 minute, and then interprets tildebot's question through undisclosed code and techniques, supplying the right answer in response and winnings the requisite number of tildes (and tildecoins).
