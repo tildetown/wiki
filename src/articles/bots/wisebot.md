@@ -11,6 +11,11 @@ Owner: [~ensis](https://tilde.town/~ensis)
 * __!remindme__ reminds you of something. *Usage:* `{!remindme, wisebot: remind me} {1H30M|next week at 10:00|in 2 days} ['MSG']`
 * __!rollcall__ lists all available modules and functions *Usage:* `{!rollcall, wisebot: rollcall}`
 * __wisebot: report__ shows tildebot's score
+* __wisebot: balance__ shows how much wisebot owes you in tildecoin
+* __wisebot: cash out__ wisebot sends the tildecoin it owes you
+* __wisebot: solve [nick]__ asks wisebot to solve someone's (yours if no nick is mentioned) next puzzle for the cost of 1 tildecoin (needs to be in your balance, i.e., what wisebot owes you). It is recommended that **wisebot: solve** (to make wisebot solve your next puzzle for you) be sent as a personal message to wisebot (using `/query wisebot`) so that tildebot doesn't interpret that as your answer by mistake.
+
+**Note:** You can also `/query wisebot` and enter most of the above commands
 
 ## More info
 wisebot autonomously answers tildebot's questions and collects tildes for itself (also winning the same number of tildecoins). It does this by running `!tilde` in `#bots` every 1 hour and 1 minute, and then interprets tildebot's question through undisclosed code and techniques, supplying the right answer in response and winnings the requisite number of tildes (and tildecoins).
