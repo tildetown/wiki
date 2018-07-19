@@ -14,6 +14,7 @@ Owner: [~ensis](https://tilde.town/~ensis)
 * __wisebot: balance__ shows how much wisebot owes you in tildecoin
 * __wisebot: cash out__ wisebot sends the tildecoin it owes you
 * __wisebot: solve [nick]__ asks wisebot to solve someone's (yours if no nick is mentioned) next puzzle for the cost of 1 tildecoin (needs to be in your balance, i.e., what wisebot owes you). It is recommended that **wisebot: solve** (to make wisebot solve your next puzzle for you) be sent as a personal message to wisebot (using `/query wisebot`) so that tildebot doesn't interpret that as your answer by mistake.
+* __wisebot: cancel solve [nick]__ asks wisebot to cancel a previously made solve request
 
 **Note:** You can also `/query wisebot` and enter most of the above commands.
 
