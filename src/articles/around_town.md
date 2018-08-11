@@ -104,5 +104,6 @@ The games have now [their own pages](games.html) for convenience.
 - `tweet` or `toot` something (`tweet` currently defunct)
 - [~.town fortunes](/~random/tilde-fortune) - get a random tip, joke, recommendation from another townie
 - [holodeck](/~ne1/code.html) - a shared storytelling tool
+- [rainbow wall](/~npa/wall/) - a world-modifiable rainbow wall
 
 If you notice anything else cool and useful around town, feel free to add it here!
