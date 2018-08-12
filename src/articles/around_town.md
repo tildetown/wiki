@@ -101,6 +101,7 @@ The games have now [their own pages](games.html) for convenience.
 - `birthday` - Publish your birthday
 - `pairing` - share tmux sessions with people on tilde
 - `shadowland` - A forum in the shadowrun universe
+- `indexme` - To create a directory listing at index.html in a directory ([more info](indexme.html))
 - `tweet` or `toot` something (`tweet` currently defunct)
 - [~.town fortunes](/~random/tilde-fortune) - get a random tip, joke, recommendation from another townie
 - [holodeck](/~ne1/code.html) - a shared storytelling tool
