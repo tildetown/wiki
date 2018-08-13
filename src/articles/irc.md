@@ -6,33 +6,38 @@ tilde.town has a local irc server! please abide by the
 moderator if you have problems. volunteer moderators are designated as ops in
 the main channel (they'll have an '@' in front of their name)
 
-the `chat` command will automatically start a weechat session and connect to
-the server. you can also use
-[irssi](irssi.html).
+the `chat` command will automatically start an irc client (weechat) and
+connect to the server. if you have opinions about irc clients, you can also
+use [irssi](irssi.html).
 
 ## irc channels
 
-a non-exhaustive list of channels on the town irc server
+When you run `chat` you automatically join our main chat, `#tildetown`. You
+can join other channels by typing commands like this:
+
+    /join #bots
+    /join #music
+    /join #tildetown
+
+An incomplete list of channels, sorted by activity:
 
 * *#tildetown*: main general chat; pretty much any topic is welcome here, but
   noisy/intense discussions may be asked to be moved to one of the more
   topic-specific channels
-
-* *#bots*: ircbots/games; can be extremely noisy at times
-* *#dev*: discussion/testing/coding advice
+* *#bots*: ircbots/games; can be extremely noisy at times as people test out
+  bots
+* *#projects*: talk about what sort of creative endeavors you're working on
+* *#dumpsterfire*: political/current events/controversial topics; venting and
+  heated discussions
+* *#engines*: cars, motorcycles, machine nerds, etc.
 * *#music*: share songs, talk about music
 * *#abookclub*: discussions about books/reading
 * *#witches*
 * *#tildeplays*
-* *#engines*: cars, motorcycles, machine nerds, etc.
 * *#go*: discussion about the board game go/weiqi/baduk; includes a crude ascii
   goban bot
-* *#chinese*: chinese-language learning/practice/discussion; non-chinese
-  language use is welcome, fluency not necessary
 * *#tokipona*: tokipona-language learning/practice/discussion; non-tokipona
   language use is welcome, fluency not necessary
-* *#dumpsterfire*: political/current events/controversial topics; venting and
-  heated discussions
 * *#ttbp*: dev updates, troubleshooting, etc. for the feels engine
 
 
@@ -52,6 +57,9 @@ in chat (which is weechat btw):
 /server add tildeverse 127.0.0.1/7766
 /connect tildeverse
 </code></pre>
+
+the main channel of the tildeverse is `#meta`, which you can join after
+connecting to the network (`/join #meta`).
 
 connecting through the town node grants you access to the town-only channel #town. besides the other
 local channels on each member node, all other channels are shared across tildes and will be visible to
