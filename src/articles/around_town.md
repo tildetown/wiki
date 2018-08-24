@@ -65,7 +65,7 @@ To participate in tilde.town's internal economy, run `tcoin`; all users get
 [feels](/~endorphant/ttbp) can automatically post entries to
 your public_html; just enable publishing from the settings menu!
 
-### tildebook
+<h3 id="tildebook">tildebook</h3>
 
 [tildebook](/~login/tildebook/) is tilde.town's unofficial user directory!
 To add your profile, simply create `tildebook_profile.html` in your
