@@ -11,8 +11,8 @@
       margin: 8px;
     }
     #content {
-      margin-left: .5em;
-      max-width:50%;
+      margin: 0 .5em;
+      max-width: 50%;
       min-width: 500px;
       background-color: rgba(0,0,0,.1);
       padding-left: 1em;
