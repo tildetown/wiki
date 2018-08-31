@@ -2,11 +2,16 @@
 <html>
 <head>
   <title>the tilde.town wiki</title>
+  <meta name="viewport" content="width=device-width">
   <style>
+    html {
+      font-size: 16px;
+    }
     body {
       background-color: #E0B0FF;
       font-family: arial;
       font-size: 110%;
+      margin: 8px;
     }
     #content {
       margin-left: .5em;
@@ -15,6 +20,12 @@
       background-color: rgba(0,0,0,.1);
       padding-left: 1em;
       padding-right: 1em;
+    }
+    @media only screen and (max-width: 575px) {
+      #content {
+        min-width: 0;
+        max-width: none;
+      }
     }
     a {
       font-weight: bold;
