@@ -18,7 +18,7 @@
       padding-left: 1em;
       padding-right: 1em;
     }
-    @media only screen and (max-width: 575px) {
+    @media only screen and (max-width: 583.8px) {
       #content {
         min-width: 0;
         max-width: none;
