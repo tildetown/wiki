@@ -4,9 +4,6 @@
   <title>the tilde.town wiki</title>
   <meta name="viewport" content="width=device-width">
   <style>
-    html {
-      font-size: 16px;
-    }
     body {
       background-color: #E0B0FF;
       font-family: arial;
