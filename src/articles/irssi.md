@@ -1,6 +1,8 @@
 irssi
 =====
 
+Do you prefer **weechat**? [Check it out here!](weechat.html)
+
 ## Setting up a mentions/hilight window for irssi.
 
 If you run irssi in a screen you might miss mentions and it's time

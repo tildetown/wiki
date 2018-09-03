@@ -6,7 +6,7 @@ tilde.town has a local irc server! please abide by the
 moderator if you have problems. volunteer moderators are designated as ops in
 the main channel (they'll have an '@' in front of their name)
 
-the `chat` command will automatically start an irc client (weechat) and
+the `chat` command will automatically start an irc client ([weechat](weechat.html)) and
 connect to the server. if you have opinions about irc clients, you can also
 use [irssi](irssi.html).
 
