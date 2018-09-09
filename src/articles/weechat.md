@@ -11,7 +11,7 @@ Do you prefer **irssi**? [Check it out here!](irssi.html)
 
 2. You can go to a buffer (what look like "tabs" in weechat are called buffers) numbered **&lt;n&gt;** using **/buffer &lt;n&gt;**.
 
-25. You can move the current buffer to the position of the **&lt;n&gt;**th buffer (and shift the rest of them to the right by one unit) using **/buffer move &lt;n&gt;**
+25. You can move the current buffer to the position of the **&lt;n&gt;**th buffer (and shift the rest of them to the right by one unit) using **/buffer move &lt;n&gt;**.
 
 26. You can swap two buffers numbered **&lt;m&gt;** and **&lt;n&gt;** using **/buffer swap &lt;m&gt; &lt;n&gt;**.
 
