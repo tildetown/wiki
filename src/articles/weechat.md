@@ -9,7 +9,11 @@ Do you prefer **irssi**? [Check it out here!](irssi.html)
 
 1. You can go through your direct mentions (called highlights because the name of the person who mentioned you is highlighted, usually with a bright background) using **Alt + P** (for previous) and **Alt + N** (for next).
 
-2. You can go to a buffer (what look like "tabs" in weechat are called buffers) numbered **&lt;n&gt;** using **/buffer n**.
+2. You can go to a buffer (what look like "tabs" in weechat are called buffers) numbered **&lt;n&gt;** using **/buffer &lt;n&gt;**.
+
+25. You can move the current buffer to the position of the **&lt;n&gt;**th buffer (and shift the rest of them to the right by one unit) using **/buffer move n**
+
+26. You can swap two buffers numbered **&lt;m&gt;** and **&lt;n&gt;** using **/buffer swap &lt;m&gt; &lt;n&gt;**.
 
 3. You can go to a buffer numbered **&lt;n&gt;** (where **&lt;n&gt;** is between 1 and 10) using **Alt + &lt;n&gt;** (**&lt;n&gt;** is 0 for the buffer numbered 10).
 
