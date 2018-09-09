@@ -5,6 +5,8 @@ Do you prefer **irssi**? [Check it out here!](irssi.html)
 
 ## Some tricks in weechat
 
+0. You can scroll through a buffer (called browsing the scrollback) by using the *Page Down* and *Page Up* keys. On macOS with keyboards that don't have those buttons, this is **Fn + Up Arrow Key** (**Page Up**) to scroll up and **Fn + Down Arrow Key** (**Page Down**) to scroll down.
+
 1. You can go through your direct mentions (called highlights because the name of the person who mentioned you is highlighted, usually with a bright background) using **Alt + P** (for previous) and **Alt + N** (for next).
 
 2. You can go to a buffer (what look like "tabs" in weechat are called buffers) numbered **&lt;n&gt;** using **/buffer n**.
