@@ -3,44 +3,21 @@
 <head>
   <title>the tilde.town wiki</title>
   <meta name="viewport" content="width=device-width">
-  <style>
-    body {
-      background-color: #E0B0FF;
-      font-family: arial;
-      font-size: 110%;
-      margin: 8px;
-    }
-    #content {
-      margin: 0 .5em;
-      max-width: 50%;
-      min-width: 500px;
-      background-color: rgba(0,0,0,.1);
-      padding-left: 1em;
-      padding-right: 1em;
-    }
-    @media only screen and (max-width: 583.8px) {
-      #content {
-        min-width: 0;
-        max-width: none;
-      }
-    }
-    a {
-      font-weight: bold;
-      color: black;
-      text-decoration:underline;
-    }
-
-    p {
-      padding-left: 1em;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/wiki/main.css">
 </head>
 <body>
-
-# the tilde.town wiki
-
-[index](/wiki) | [table of contents](/wiki/toc.html) | back to [tilde.town](https://tilde.town)
-
-<hr>
+<div id="container">
+  <div id="topbar">
+  <!-- nothing to see here yet -->
+  </div>
+  <div id="leftnav">
+    <img class="logo" src="/wiki/logo.png" />
+    <span class="li"><span class="lynxit">* </span><a href="/wiki">Front Page</a></span>
+    <span class="li"><span class="lynxit">* </span><a href="/wiki/toc.html">Table of Contents</a></span>
+    <span class="li"><span class="lynxit">* </span><a href="https://tilde.town/">Return to Town</a></span>
+    <!-- <span class="li"><span class="lynxit">* </span><a href="">Recent Changes</a></span> -->
+  </div>
+</div>
 
 <div id="content">
