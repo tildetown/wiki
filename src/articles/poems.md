@@ -1,6 +1,6 @@
 poems
 =====
-*Add your best poems (with their authors) here.*
+**_add your best poems (with their authors) here._**
 
 Don't worry much about others  
 and what they says and thinks  
@@ -10,4 +10,4 @@ confuse like hell those bothers
 with bright smiles and winks  
 for the data we all gathers  
 says yup, their shit still stinks.  
-*-lkosov*
+**[~lkosov](https://tilde.town/~lkosov/)**
