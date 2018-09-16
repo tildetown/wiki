@@ -34,7 +34,7 @@ pre{
 
 #container{
   background: rgba(0,0,0,.1);
-  width: 900px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   padding: 5px 10px;
@@ -106,6 +106,7 @@ pre{
     max-width: none;
     height: auto;
     min-height: auto;
+    border-right: 0;
   }
   #leftnav .li{
     display: block;
@@ -115,6 +116,7 @@ pre{
   #content{
     margin-left: 0;
     max-width: 500px;
+    border-left: 0;
   }
   #footer{
     width: auto;
