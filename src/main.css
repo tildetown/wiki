@@ -108,6 +108,7 @@ pre{
     min-height: auto;
     border-right: 0;
     border-bottom: rgba(0,0,0,.3) 1px solid;
+    padding-bottom: 5px;
   }
   #leftnav .li{
     display: block;
@@ -119,6 +120,7 @@ pre{
     max-width: 500px;
     border-left: 0;
     border-top: rgba(0,0,0,.3) 1px solid;
+    margin-top: -1px;
   }
   #footer{
     width: auto;
