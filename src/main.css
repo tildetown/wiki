@@ -65,7 +65,8 @@ pre{
 
 #content{
   min-height: 500px;
-  margin-left: 220px;
+  margin-left: 185px;
+  overflow: hidden;
 }
 
 #footer{
