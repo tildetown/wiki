@@ -18,6 +18,5 @@
     <span class="li"><span class="lynxit">* </span><a href="https://tilde.town/">Return to Town</a></span>
     <!-- <span class="li"><span class="lynxit">* </span><a href="">Recent Changes</a></span> -->
   </div>
-</div>
 
-<div id="content">
+  <div id="content">
