@@ -66,8 +66,10 @@ pre{
 #content{
   min-height: 500px;
   margin-left: 185px;
+/*
   overflow: hidden;
-  min-width: 0.01562499953433871182489900419909645279404px; /* don't ask me where i got this number from, the last decimal place is a little lesser than 4 */
+  min-width: 0.01562499953433871182489900419909645279404px;
+/* don't ask me where i got this number from, the last decimal place is a little lesser than 4 */
 }
 
 #footer{
