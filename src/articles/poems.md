@@ -1,6 +1,6 @@
-poems
+Poems
 =====
-**_add your best poems (with their authors) here._**
+**_Add your best poems here. Don't forget to attribute!_**
 
 Don't worry much about others  
 and what they says and thinks  
