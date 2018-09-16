@@ -107,6 +107,7 @@ pre{
     height: auto;
     min-height: auto;
     border-right: 0;
+    border-bottom: rgba(0,0,0,.3) 1px solid;
   }
   #leftnav .li{
     display: block;
@@ -117,6 +118,7 @@ pre{
     margin-left: 0;
     max-width: 500px;
     border-left: 0;
+    border-top: rgba(0,0,0,.3) 1px solid;
   }
   #footer{
     width: auto;
