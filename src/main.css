@@ -38,6 +38,7 @@ pre{
   margin-left: auto;
   margin-right: auto;
   padding: 5px 10px;
+  min-height: calc(100vh - 70px); /* for the footer to stick to the bottom at all times */
 }
 
 #topbar{
