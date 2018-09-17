@@ -12,7 +12,9 @@
   <!-- nothing to see here yet -->
   </div>
   <div id="leftnav">
-    <img class="logo" src="/wiki/logo.png" alt="Town Wiki" />
+    <a href="/wiki">
+      <img class="logo" src="/wiki/logo.png" alt="Town Wiki" />
+    </a>
     <span class="li"><span class="lynxit">* </span><a href="/wiki">Front Page</a></span>
     <span class="li"><span class="lynxit">* </span><a href="/wiki/toc.html">Table of Contents</a></span>
     <span class="li"><span class="lynxit">* </span><a href="https://tilde.town/">Return to Town</a></span>
