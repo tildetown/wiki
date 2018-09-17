@@ -63,8 +63,8 @@ The first one is called `ttci` (tilde.town connect intranet):
 <code><pre>
 \#!/bin/bash
 \#ttci = tilde.town connect intranet
-ssh -N <your_username>@tilde.town -o ServerAliveInterval=240 -L localhost:12345:localhost:12345 -i 
-~/.ssh/<your_private_key_file> &
+ssh -N your_username_here@tilde.town -o ServerAliveInterval=240 -L localhost:12345:localhost:12345 -i 
+~/.ssh/your_private_key_file &
 echo $! > ssh_pid
 </code></pre>
 
