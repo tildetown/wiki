@@ -11,7 +11,7 @@ some limited scope of administrative privilege. They help take the burden off of
 
 Its final goal is to promote transparency. The town is best described as
 anarcho-monarchist society: users self-govern according to the
-[coc](/wiki/conduct.html), appealing to an all-powerful admin (~vilmibm) if
+[coc](conduct.html), appealing to an all-powerful admin (~vilmibm) if
 self-governance hits a wall. Such an arrangement benefits from administrative
 transparency, for without trust in the admin the limits of self governance can
 undermine the community (for example, not being able to ban a repeat coc
