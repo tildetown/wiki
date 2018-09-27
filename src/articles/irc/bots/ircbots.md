@@ -19,6 +19,8 @@ But basically just snoop other people's bot scripts and ask questions in IRC.
 
 ## Known Bots
 
+* pinhook
+* tracer
 * topicbot
 * quote_bot
 * linearbot
@@ -33,3 +35,4 @@ But basically just snoop other people's bot scripts and ask questions in IRC.
 * minerbot ([page](minerbot.html))
 * kelpiebot ([page](kelpiebot.html))
 * wisebot ([page](wisebot.html))
+* tildebot ([View all scores here](/~login/tildebot.txt))

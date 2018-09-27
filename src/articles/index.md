@@ -6,9 +6,9 @@ various art projects, guides on linux, fiction, and other wonderful content.
 ## navigating
 
 check out the [table of contents](toc.html) for all the pages, or [around
-town](around_town.html) for a summary of things to do!
+town](around-town.html) for a summary of things to do!
 
-## how to contribute
+## how to contribute to the wiki
 
 all users can edit this wiki. from your home directory, run:
 

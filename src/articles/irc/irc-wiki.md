@@ -2,13 +2,13 @@ irc
 ===
 
 tilde.town has a local irc server! please abide by the
-[code of conduct](https://tilde.town/wiki/conduct.html), and contact a
+[code of conduct](../important/conduct.html), and contact a
 moderator if you have problems. volunteer moderators are designated as ops in
 the main channel (they'll have an '@' in front of their name)
 
-the `chat` command will automatically start an irc client ([weechat](weechat.html)) and
+the `chat` command will automatically start an irc client ([weechat](../learn/weechat.html)) and
 connect to the server. if you have opinions about irc clients, you can also
-use [irssi](irssi.html).
+use [irssi](../learn/irssi.html).
 
 ## irc channels
 
@@ -68,8 +68,12 @@ other tilde members.
 tilde.chat has the same expectations of culture and sharing and kindness as the internal irc chat.
 come share the love :)
 
-
 ## irc bots
 
-see the [irc bots wiki page](bots/ircbots.html)
+see the [irc bots wiki page](irc/bots/ircbots.html)
 for more information about bots.
+
+## How to use IRC with a client running on your own machine 
+
+* [via an SSH tunnel)](http://tilde.town/~nick/sshtunnel.html)
+

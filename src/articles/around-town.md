@@ -5,11 +5,15 @@ Around Tilde Town
 
 ## Socializing on ~town
 
-### mail
+### local mail
 
 tilde.town's mail server cannot send outgoing mail or accept incoming mail;
-it's for contacting other users on the server internally only. try `mutt` or
-`alpine` to check your tildemail!
+it's for contacting other users on the server internally only. 
+
+current mail clients on the town are
+
+* [alpine](mail/alpine.html)
+* [mutt](mail/mutt.html)
 
 ### IRC
 
@@ -21,19 +25,12 @@ Join the chat with the `chat` command. Anyone can create a channel, or join an e
 - &#35;dev
 - &#35;dumpsterfire
 
-For more information, see the [IRC wiki](irc.html)!
+For more information, see the [IRC wiki](irc/irc-wiki.html)!
 
 ### #fridaypostcard
 [View postcards](/~jumblesale/fp.html)
 
 To contribute: share a link to an image on IRC with the text _#fridaypostcard_. Updated every Friday.
-
-### !tilde game (irc)
-[View all scores](/~login/tildebot.txt)
-
-To play: `/join #bots` and type _!tilde_ to get tildes.
-
-To view your score: Type _!tildescore_ in #bots
 
 ### bbj
 
@@ -45,13 +42,6 @@ We have an internal command-line blogging platform. To use it, run:
 `feels` while logged in to tilde.town.
 
 [more info here](/~endorphant/ttbp)
-
-### exchange coins
-
-To participate in tilde.town's internal economy, run `tcoin`; all users get
-1000 coins to start, and can send and receive coins from other users.
-
-[more info here](/~login/tcoin.html)
 
 ## For your public\_html/
 
@@ -80,7 +70,7 @@ gopher://tilde.town:70, and you can make your own gopherhole by creating
 `public_gopher` in your home directory. you'll need a gopher-compatible browser
 (try `lynx gopher://tilde.town:70`) to view gopher pages.
 
-[full guide](gopher.html)
+[full guide](learn/gopher.html)
 
 ## Games on tilde.town
 
@@ -101,10 +91,11 @@ The games have now [their own pages](games.html) for convenience.
 - `birthday` - Publish your birthday
 - `pairing` - share tmux sessions with people on tilde
 - `shadowland` - A forum in the shadowrun universe
-- `indexme` - To create a directory listing at index.html in a directory ([more info](indexme.html))
+- `indexme` - To create a directory listing at index.html in a directory ([more info](http://tilde.town/~kc/index/))
 - `tweet` or `toot` something (`tweet` currently defunct)
 - [~.town fortunes](/~random/tilde-fortune) - get a random tip, joke, recommendation from another townie
 - [holodeck](/~ne1/code.html) - a shared storytelling tool
 - [rainbow wall](/~npa/wall/) - a world-modifiable rainbow wall
+- `nicethings` - a command intended to cheer people up
 
 If you notice anything else cool and useful around town, feel free to add it here!
