@@ -24,7 +24,6 @@ But basically just snoop other people's bot scripts and ask questions in IRC.
 * topicbot
 * quote_bot
 * linearbot
-* tildebot
 * norrisBot
 * sedbot ([source](https://git.tildeverse.org/ben/sedbot))
 * sotdbot
