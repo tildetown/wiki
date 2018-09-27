@@ -70,10 +70,10 @@ come share the love :)
 
 ## irc bots
 
-see the [irc bots wiki page](bots/list-of-bots.html)
+see the [irc bots wiki page](list-of-bots.html)
 for more information about bots.
 
 ## How to use IRC with a client running on your own machine 
 
-* [via an SSH tunnel)](http://tilde.town/~nick/sshtunnel.html)
+* [via an SSH tunnel](http://tilde.town/~nick/sshtunnel.html)
 
