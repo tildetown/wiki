@@ -2,7 +2,7 @@ irc
 ===
 
 tilde.town has a local irc server! please abide by the
-[code of conduct](../important/conduct.html), and contact a
+[code of conduct](../conduct.html), and contact a
 moderator if you have problems. volunteer moderators are designated as ops in
 the main channel (they'll have an '@' in front of their name)
 
