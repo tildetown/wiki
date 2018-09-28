@@ -47,4 +47,6 @@ Do you prefer **irssi**? [Check it out here!](irssi.html)
 
 18. **/set** sets options. For example, **/set irc.server.&lt;server-name&gt;.command "/msg nickserv identify xxxxxx"** will make weechat execute the command in quotes when &lt;server-name&gt; is joined.
 
+19. **/set buflist.look.enabled 1** enables the buffer list on the left, and **/set buflist.look.enabled 0** disables the same.
+
 More information here: <https://weechat.org/files/doc/devel/weechat_quickstart.en.html>.
