@@ -110,6 +110,7 @@ pre{
     display: block;
     min-width: 0;
     max-width: 583.8px;
+    margin-right: 0;
   }
   #content{
     margin-left: 0;
