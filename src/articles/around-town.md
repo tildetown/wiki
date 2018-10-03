@@ -26,7 +26,7 @@ existing one:
 - &#35;dev
 - &#35;dumpsterfire
 
-For more information, see the [IRC wiki](irc/irc-wiki.html)!
+For more information, see the [IRC wiki](socializing/irc/)!
 
 ### #fridaypostcard
 [View postcards](/~jumblesale/fp.html)
