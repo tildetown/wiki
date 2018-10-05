@@ -77,8 +77,17 @@ While running chat, press `alt 1`. then run:
 /set irc.server.town.sasl_password a-safe-password
 ```
 
+If this doesn't work, it might be because the server is known as `localhost`
+to your weechat. You can either quit and run `chat` again (and then redo the
+above steps) or run:
+
+```
+/set irc.server.localhost.sasl_username yournick
+/set irc.server.localhost.sasl_password a-safe-password
+```
+
 If you customized your weechat config (or you don't use the `chat` command),
-this might fail for you. In that case feel free to ask in chat for help.
+this still might fail for you. In that case feel free to ask in chat for help.
 
 ## Registering a channel
 
