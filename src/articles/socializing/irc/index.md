@@ -112,12 +112,13 @@ is set will be remembered.
 
 ## tildeverse IRC
 
-~town is also part of a wider network of tildes: [tilde.chat](https://tilde.chat).
-the tilde.chat network is run by member nodes (currently ~town, tilde.team, and yourtilde.com)
-and exists as a place to share and collaborate with other tilde members.
+~town is also part of a wider network of tildes:
+[tilde.chat](https://tilde.chat). The tilde.chat network is run by member nodes
+(currently ~town, tilde.team, and yourtilde.com) and exists as a place to share
+and collaborate with other tilde members.
 
-to connect, you can use the configuration settings on the [tilde.chat](https://tilde.chat) site and connect
-with those credentials.
+to connect, you can use the configuration settings on the
+[tilde.chat](https://tilde.chat) site and connect with those credentials.
 
 or, you can follow these steps to connect through the ~town node:
 
@@ -131,7 +132,7 @@ the main channel of the tildeverse is `#meta`, which you can join after
 connecting to the network (`/join #meta`).
 
 connecting through the town node grants you access to the town-only channel
-#town. besides the other local channels on each member node, all other
+\#town. besides the other local channels on each member node, all other
 channels are shared across tildes and will be visible to other tilde members.
 
 tilde.chat has the same expectations of culture and sharing and kindness as
