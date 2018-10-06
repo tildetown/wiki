@@ -10,9 +10,9 @@ an '@' in front of their name)
 It's strongly recommended that you check out our [etiquette
 guide](../../etiquette.html).
 
-the `chat` command will automatically start an IRC client ([weechat](../../learn/weechat.html)) and
-connect to the server. if you have opinions about IRC clients, you can also
-use [irssi](../../learn/irssi.html).
+the `chat` command will automatically start an IRC client
+([weechat](../../learn/weechat.html)) and connect to the server. if you have
+opinions about IRC clients, you can also use [irssi](../../learn/irssi.html).
 
 ## channels
 
@@ -132,7 +132,7 @@ the main channel of the tildeverse is `#meta`, which you can join after
 connecting to the network (`/join #meta`).
 
 connecting through the town node grants you access to the town-only channel
-\#town. besides the other local channels on each member node, all other
+`#town`. besides the other local channels on each member node, all other
 channels are shared across tildes and will be visible to other tilde members.
 
 tilde.chat has the same expectations of culture and sharing and kindness as
