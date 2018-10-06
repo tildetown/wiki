@@ -74,6 +74,7 @@ While running chat, press `alt 1`. then run:
 
 ```
 /set irc.server.town.sasl_username yournick
+
 /set irc.server.town.sasl_password a-safe-password
 ```
 
@@ -83,6 +84,7 @@ above steps) or run:
 
 ```
 /set irc.server.localhost.sasl_username yournick
+
 /set irc.server.localhost.sasl_password a-safe-password
 ```
 
