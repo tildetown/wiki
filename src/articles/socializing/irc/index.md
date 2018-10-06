@@ -72,21 +72,15 @@ confusing.
 
 While running chat, press `alt 1`. then run:
 
-```
-/set irc.server.town.sasl_username yournick
-
-/set irc.server.town.sasl_password a-safe-password
-```
+    /set irc.server.town.sasl_username yournick
+    /set irc.server.town.sasl_password a-safe-password
 
 If this doesn't work, it might be because the server is known as `localhost`
 to your weechat. You can either quit and run `chat` again (and then redo the
 above steps) or run:
 
-```
-/set irc.server.localhost.sasl_username yournick
-
-/set irc.server.localhost.sasl_password a-safe-password
-```
+    /set irc.server.localhost.sasl_username yournick
+    /set irc.server.localhost.sasl_password a-safe-password
 
 If you customized your weechat config (or you don't use the `chat` command),
 this still might fail for you. In that case feel free to ask in chat for help.
@@ -103,9 +97,7 @@ name) you might want to register your channel for yourself.
 
 Run this:
 
-```
-/quote CS REGISTER #yourchannel
-```
+    /quote CS REGISTER #yourchannel
 
 replacing `yourchannel` with the name of your channel. Now, you'll be
 automatically made an operator when you join the channel and any topic that
