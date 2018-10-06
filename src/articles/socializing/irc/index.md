@@ -117,26 +117,27 @@ is set will be remembered.
 (currently ~town, tilde.team, and yourtilde.com) and exists as a place to share
 and collaborate with other tilde members.
 
-to connect, you can use the configuration settings on the
+To connect, you can use the configuration settings on the
 [tilde.chat](https://tilde.chat) site and connect with those credentials.
 
 or, you can follow these steps to connect through the ~town node:
 
-in chat (which is weechat btw):
-<pre><code>
+In chat (a wrapper around weechat):
+
+```
 /server add tildeverse 127.0.0.1/7766
 /connect tildeverse
-</code></pre>
+```
 
-the main channel of the tildeverse is `#meta`, which you can join after
+The main channel of the tildeverse is `#meta`, which you can join after
 connecting to the network (`/join #meta`).
 
-connecting through the town node grants you access to the town-only channel
-`#town`. besides the other local channels on each member node, all other
+Connecting through the town node grants you access to the town-only channel
+`#town`. Besides the other local channels on each member node, all other
 channels are shared across tildes and will be visible to other tilde members.
 
 tilde.chat has the same expectations of culture and sharing and kindness as
-the internal IRC chat.  come share the love :)
+the internal IRC chat. Come share the love. :)
 
 ## How to stay connected
 
