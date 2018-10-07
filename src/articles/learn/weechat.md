@@ -49,4 +49,6 @@ Do you prefer **irssi**? [Check it out here!](irssi.html)
 
 19. **/set buflist.look.enabled 1** enables the buffer list on the left, and **/set buflist.look.enabled 0** disables the same.
 
+20. **F9** to scroll Weechat's title bar (with the topic in it) to the left, and **F10** to scroll it to the right.
+
 More information here: <https://weechat.org/files/doc/devel/weechat_quickstart.en.html>.
