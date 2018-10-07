@@ -27,9 +27,10 @@ add the following block to ~/.ssh/config on your local machine (create it if it 
 
 <code><pre>
 Host town
-Hostname tilde.town
-User your_username_here
-LocalForward localhost:12345 localhost:12345
+  Hostname tilde.town
+  User your_username_here
+  LocalForward localhost:12345 localhost:12345
+  ServerAliveInterval 240
 </pre></code>
 
 then on your local machine, you can simply run `ssh town` and a magical intertube will be created
@@ -65,17 +66,17 @@ The first one is called `ttci` (tilde.town connect intranet):
 \#ttci = tilde.town connect intranet
 ssh -N your_username_here@tilde.town -o ServerAliveInterval=240 -L localhost:12345:localhost:12345 -i 
 ~/.ssh/your_private_key_file &
-echo $! > ssh_pid
+echo $! > ~/.ssh/ssh_pid
 </code></pre>
 
 The second one is called `ttciend` (tilde.town connect intranet end):
 
 <code><pre>
 \#!/bin/bash
-if [ -e ssh_pid ] 
+if [ -e ~/.ssh/ssh_pid ] 
 then
-  kill `cat ssh_pid`
-  rm ssh_pid
+  kill `cat ~/.ssh/ssh_pid`
+  rm ~/.ssh/ssh_pid
 fi
 </code></pre>
 
@@ -86,7 +87,7 @@ Once you've run `ttci` to connect, instead of going to
 `http://localhost:12345/~endorphant/` to browse ~endorphant's 
 intranet home page.
 
-Once you run `ttciend`, the URLs with `localhost` in 
+Once you run `ttciend`, the URLs with `localhost:12345` in 
 them will stop working since you will have disconnected from the 
 intranet. You can run `ttci` to connect again.
 
