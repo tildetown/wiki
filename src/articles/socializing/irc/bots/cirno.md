@@ -8,6 +8,7 @@ cirno
 ## Commands and more info
 
 * **!setv &lt;key&gt; &lt;value&gt;** Set value **&lt;value&gt;** to key **&lt;key&gt;**, retrivable in in the future using **!getv**
+
 * **!getv &lt;key&gt;** Get value associated with key **&lt;key&gt;**, if a value is already set for key **&lt;key&gt;** using **!setv**
 
 **Note:** The above commands can be sent to **cirno** in any channel that it's in, and also using IRC private messages (**/query cirno**).
