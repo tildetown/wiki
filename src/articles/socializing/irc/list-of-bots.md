@@ -36,3 +36,4 @@ But basically just snoop other people's bot scripts and ask questions in IRC.
 * wisebot ([page](bots/wisebot.html))
 * tildebot ([View all scores here](/~login/tildebot.txt))
 * ramenkan ([page](bots/ramenkan.html))
+* cirno ([page](bots/cirno.html))
