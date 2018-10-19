@@ -16,7 +16,7 @@ In `nano`, editing commands are listed at the bottom of the screen. When you see
 
 You're not limited to a single page. You can add more, along with stylesheets, images, etc.
 
-As well as editing files over `ssh`, you can upload and download files using a related tool called `sftp`.
+As well as editing files over `ssh`, you can upload and download files using a related tool called `sftp`. For the manual, type `man sftp` and see especially the _Description_ and _Interactive Commands_ sections.
 
 Some useful resources:
 
