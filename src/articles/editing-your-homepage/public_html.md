@@ -7,13 +7,12 @@ visited using a web browser:
 
 `https://tilde.town/~YOUR_USER_NAME/index.html`
 
-As mentioned, that `index.html` file is actually stored in your `public_html`
-directory.
+That `index.html` file is actually located in your `public_html` directory.
 
 To edit it, log in to your tilde.town account using
-[ssh](https://tilde.town/wiki/getting-started/ssh.html) and open the file in a
+[ssh](../getting-started/ssh.html) and open the file in a
 text editor -- for example,
-[nano](https://tilde.town/wiki/learn/editors/nano.html):
+[nano](../learn/editors/nano.html):
 
 ```
 $ nano ~/public_html/index.html
