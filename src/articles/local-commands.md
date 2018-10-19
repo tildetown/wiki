@@ -10,6 +10,8 @@ If the top of the list scrolls off the top of your screen, try this:
 
 `ls /usr/local/bin/ | less`
 
+From there, hit `q` to return to the command line.
+
 
 ## Learning to use these commands
 
