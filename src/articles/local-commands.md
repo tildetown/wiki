@@ -1,21 +1,35 @@
-# local commands
+# Local commands
 
-## how to get a list of system-wide accessible
+## How to get a list of locally available commands
 
-type `ls /usr/local/bin/`
+At the command-line prompt, type:
 
-## how to learn how to use one of these commands if there are no tutorials available
+`ls /usr/local/bin/`
 
-note: not all commands will have a help reference
+If the top of the list scrolls off the top of your screen, try this:
 
-### using man
+`ls /usr/local/bin/ | less`
 
-`man <a command here>`
 
-an example of this would be `man ls`
+## Learning to use these commands
 
-### using --help
+Note that not all commands will have a manual page or `--help` option, but you
+can ask in [chat](https://tilde.town/~trm/wiki/socializing/irc/) if you run
+into problems. Just type `chat` on the command line.
 
-`<a command here> --help`
 
-an example of this would be `wiki --help`
+### Using `man` to read manual pages
+
+`man <command>`
+
+An example of this would be `man ls`
+
+
+### Using the `--help` option
+
+`<command> --help`
+
+An example of this would be `wiki --help`
+
+Most commands understand one of: `--help`, `-help`, `-h`.
+
