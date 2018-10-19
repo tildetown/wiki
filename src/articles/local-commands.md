@@ -14,7 +14,7 @@ If the top of the list scrolls off the top of your screen, try this:
 ## Learning to use these commands
 
 Note that not all commands will have a manual page or `--help` option, but you
-can ask in [chat](https://tilde.town/~trm/wiki/socializing/irc/) if you run
+can ask in [chat](https://tilde.town/wiki/socializing/irc/) if you run
 into problems. Just type `chat` on the command line.
 
 
