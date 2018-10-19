@@ -16,6 +16,12 @@ In `nano`, editing commands are listed at the bottom of the screen. When you see
 
 You're not limited to a single HTML file in your `public_html` directory: you can add more web pages, along with stylesheets, images, etc. But `index.html` is the page people will see by default if they visit `https://tilde.town/~YOUR_USER_NAME/` without specifying any other file.
 
+If you have a file in your `public_html` directory that can't be accessed via a web browser, chances are it's a file permission problem. Using the `chmod` command to make the file readable to anyone will likely fix it:
+
+```
+$ chmod u=rw,g=r,o=r ~/public_html/FILENAME
+```
+
 As well as editing files over `ssh`, you can upload and download files using a related tool called `sftp` (...which you run at _your_ end, as with `ssh`). For the manual, type `man sftp` and see especially the _Description_ and _Interactive Commands_ sections.
 
 Some useful resources:
