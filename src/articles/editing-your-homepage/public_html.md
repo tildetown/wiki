@@ -1,4 +1,4 @@
-# How to edit your `public_html`
+# How to edit your HTML homepage
 
 Your `public_html` directory is the place to store HTML (i.e. web pages) and associated files (e.g. stylesheets) you'd like to make publicly available on the World Wide Web. Your tilde.town account includes a default place-holder web page -- it can be visited using a web browser:
 
