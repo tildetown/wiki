@@ -2,14 +2,6 @@
 
 Various games are available in Town. Here's a list of them.
 
-## mud.tilde.town
-
-[mud.tilde.town](https://github.com/selfsame/mud.tilde.town) is a multiplayer
-interactive fiction game written in python by [selfsame](/~selfsame/). You can
-access the local server by entering the following command:
-
-    telnet localhost 5071
-
 ## botany
 
 [botany](https://github.com/jifunks/botany) is a command line virtual plant
