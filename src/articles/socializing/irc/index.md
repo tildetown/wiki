@@ -119,7 +119,7 @@ or, you can follow these steps to connect through the ~town node:
 In chat (a wrapper around weechat):
 
 ```
-/server add tildeverse 127.0.0.1/7766
+/server add tildeverse 127.0.0.1/7766 -autoconnect
 /connect tildeverse
 ```
 
