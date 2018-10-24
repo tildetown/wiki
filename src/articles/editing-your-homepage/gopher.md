@@ -1,13 +1,14 @@
 Gopher Wiki
 ============
 
-Gopher is a pre-web internet protocol based on a hierarchy of menus and documents.
-To get started with Gopher on the town, make a `public_gopher` directory in your home and it will be listed on the main menu of [gopher://tilde.town](gopher://tilde.town)
-Create a file named `gophermap` to add information, links, and labels for files. 
+[Gopher](https://en.wikipedia.org/wiki/Gopher_(protocol)) is a pre-web internet protocol based on a hierarchy of menus and documents.
+See below for useful links and clients for Gopher.
 
-[2007 Gopherspace Mirror](https://archive.org/details/2007-gopher-mirror)
+To get started with Gopher on the town, make a `public_gopher` directory in your home and it will be listed on the main menu of [gopher://tilde.town](gopher://tilde.town).
+You can start immediately by putting various files and directories in your `public_gopher`, and they will be displayed on Gopher.
+In addition, you can create a file named `gophermap` to add information, links, and labels for files. 
 
-[A video on Gopher](https://www.youtube.com/watch?v=JbJKf0UOGAc)
+## `gophermap` format
 
 **How to Edit Gopher Map**
 
@@ -42,7 +43,19 @@ Create a file named `gophermap` to add information, links, and labels for files.
     1.0Why is Gopher Still Relevant?        /gopher/relevance.txt   gopher.floodgap.com     70
     2.hAn http link URL:http://tilde.town/
 
-**References**
+## Clients
+
+There is a variety of gopher clients around, and it's even possible to browse gopher directly with telnet/netcat.
+Some popular clients are:
+
+- [Overbite](https://gopher.floodgap.com/overbite/)
+- [VF-1](https://github.com/solderpunk/VF-1)
+
+## References and external links
+
+[2007 Gopherspace Mirror](https://archive.org/details/2007-gopher-mirror)
+
+[A video on Gopher](https://www.youtube.com/watch?v=JbJKf0UOGAc)
 
 [SDF Gophermap Guide](http://sdf.org/?tutorials/gopher)
 

@@ -1,7 +1,7 @@
-irssi
-=====
+# Irssi
 
 Do you prefer **weechat**? [Check it out here!](weechat.html)
+
 
 ## Setting up a mentions/hilight window for irssi.
 
@@ -15,47 +15,41 @@ any messages that contain your nickname.
 
 Install cras's hilightwin.pl:
 
-```
-mkdir -p ~/.irssi/scripts/autorun
-curl -L https://github.com/irssi/scripts.irssi.org/raw/gh-pages/scripts/hilightwin.pl > ~/.irssi/scripts/autorun/hilightwin.pl
-```
+    mkdir -p ~/.irssi/scripts/autorun
+    curl -L https://github.com/irssi/scripts.irssi.org/raw/gh-pages/scripts/hilightwin.pl > ~/.irssi/scripts/autorun/hilightwin.pl
 
-Setup the hilight window
+Setup the hilight window:
 
-```
-/window new split
-/window name hilight
-/window size 6
-/layout save
-```
+    /window new split
+    /window name hilight
+    /window size 6
+    /layout save
 
-Load script
+Load the script:
 
-```
-/script load autorun/hilightwin.pl
-```
+    /script load autorun/hilightwin.pl
+
 
 ## away_screen.pl
 
-`away_screen.pl` is a script for irssi which automatically sets `/away` when you detach from screen.
-It can also automatically change your nickname when you detach from screen so you can let others
-know when you're away. It will also log mentions you've received while detached.
+`away_screen.pl` is a script for irssi which automatically sets `/away` when
+you detach from screen. It can also automatically change your nickname when
+you detach from screen so you can let others know when you're away. It will
+also log mentions you've received while detached.
 
 ### Installation
 
-```
-# download screen_away.pl
-curl http://scripts.irssi.org/scripts/screen_away.pl ~/.irssi/scripts
+    # download screen_away.pl
+    curl http://scripts.irssi.org/scripts/screen_away.pl ~/.irssi/scripts
 
-# (optional) autoload it by symlinking to ~/.irssi/scripts/autorun
-# you may need to make the autorun directory first
-cd ~/.irssi/scripts/autorun && ln -sv ../screen_away.pl .
+    # (optional) autoload it by symlinking to ~/.irssi/scripts/autorun
+    # you may need to make the autorun directory first
+    cd ~/.irssi/scripts/autorun && ln -sv ../screen_away.pl .
 
-# restart irssi in a screen
-```
+    # restart irssi in a screen
 
-To automatically change your nickname when detached, run the following command from irssi:
+To automatically change your nickname when detached, run the following command
+from irssi:
 
-```
-/set screen_away_nick YOUR_AWAY_NICKNAME
-````
+    /set screen_away_nick YOUR_AWAY_NICKNAME
+
