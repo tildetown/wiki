@@ -42,6 +42,8 @@ In the example directory listing above:
 * `secrets` is a directory that only `bart` can access.
 * `wibble` is a file that `bart` and any `staff` member can acess and modify, but nobody else can access at all.
 
+(Be aware that system administrators can access files regardless of file permissions. Permissions can help manage files, but aren't about absolute privacy.)
+
 
 ## Using `chmod` to modify file permissions
 
