@@ -29,8 +29,9 @@ But `index.html` is the page people will see by default if they visit
 `https://tilde.town/~YOUR_USER_NAME/` without specifying any other file.
 
 If you have a file in your `public_html` directory that can't be accessed via a
-web browser, chances are it's a file permission problem. Using the `chmod`
-command to make the file readable to anyone will likely fix it:
+web browser, chances are it's a
+[file permission](../learn/command-line/file-permissions.html) problem. Using the
+`chmod` command to make the file readable to anyone will likely fix it:
 
 ```
 $ chmod u=rw,g=r,o=r ~/public_html/FILENAME
