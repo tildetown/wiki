@@ -12,12 +12,12 @@ Here's an example directory listing -- the first column shows the file permissio
 
 <pre>
     $ ls -l
-    drwxrwxr-x  4 bart bart   4096 Oct 27 21:41 ./
-    drwxr-xr-x 23 bart bart   4096 Oct 27 21:30 ../
-    -rw-rw-r--  1 bart staff     0 Oct 15 22:01 foo
-    drwxrwxr-x  2 bart bart   4096 Oct 27 21:41 public/
-    drwx------  2 bart bart   4096 Oct 27 21:40 secrets/
-    -rw-rw----  1 bart staff     7 Oct 15 22:01 wibble
+    drwxrwxr-x  4 bart bart     4096 Oct 27 21:41 ./
+    drwxr-xr-x 23 bart bart     4096 Oct 27 21:30 ../
+    -rw-rw-r--  1 bart friends     0 Oct 15 22:01 foo
+    drwxrwxr-x  2 bart bart     4096 Oct 27 21:41 public/
+    drwx------  2 bart bart     4096 Oct 27 21:40 secrets/
+    -rw-rw----  1 bart friends     7 Oct 15 22:01 wibble
 </pre>
 
 The very first character shows whether or not the file is a directory. (That first character has other uses too, but we won't cover that here.) The next nine characters represent the actual file permissions. If you split those nine characters into three 3-character sequences, you get the permissions for 1) the file owner, 2) group members, and 3) everyone else.
@@ -37,10 +37,10 @@ The characters `r`, `w`, and `x` represent read access, write access, and permis
 
 In the example directory listing above:
 
-* `foo` is a file that can be read by anyone, but only written to by `bart` or members of the `staff` group.
+* `foo` is a file that can be read by anyone, but only written to by `bart` or members of the `friends` group.
 * `public` is a directory that anyone can access, but only `bart` can modify.
 * `secrets` is a directory that only `bart` can access.
-* `wibble` is a file that `bart` and any `staff` member can acess and modify, but nobody else can access at all.
+* `wibble` is a file that `bart` and any `friends` group member can acess and modify, but nobody else can access at all.
 
 (Be aware that system administrators can access files regardless of file permissions. Permissions can help manage files, but aren't about absolute privacy.)
 
