@@ -57,7 +57,7 @@ chin is command-line chinchirorin, a Japanese game played with three dice in
 a small bowl. It appears in the games Suikoden and Suikoden II, and in the 
 manga and anime Kaiji. To play chinchirorin, enter the following command:
 
-    /home/login/bin/chin
+    chin
 
 ## holodeck
 
