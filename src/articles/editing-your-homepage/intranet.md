@@ -24,9 +24,14 @@ them).
 In order to automatically access the intranet when launching e.g. lynx from your shell,
 you can make use of the WWW_HOME environment variable by adding it to your shell config.
 Details vary however and depend on your respective shell. In the case of bash, add
+
 `export WWW_HOME='http://localhost:12345/'`
+
 to either your `.bash_profile` or `.bashrc` file, whichever one you use,
-then reload your config by running `source .bash_profile` or `source .bashrc`. 
+then reload your config by running 
+
+`source .bash_profile` or `source .bashrc`. 
+
 The next time you launch your browser of choice from the shell, the intranet landing page should appear.
 
 ## How to connect to the intranet remotely

@@ -46,6 +46,7 @@ In addition, you can create a file named `gophermap` to add information, links, 
 ## Clients
 
 Gopher can be accessed directly from your tilde.town shell with some text-based web browsers, like `lynx` or `w3m`, by specifying the desired protocol.
+
 Example: `lynx gopher://tilde.town`
 
 There is a variety of gopher clients around, and it's even possible to browse gopher directly with telnet/netcat.
