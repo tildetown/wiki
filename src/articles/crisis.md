@@ -217,6 +217,7 @@ Additional contributors/proofreading:
 * ~mio
 * ~unreal
 * ~aloosefruit
+* ~m455
 
 Thank you for being a compassionate member of this community; learning how to
 help and support each other is extremely important <3
