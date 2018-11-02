@@ -1,10 +1,9 @@
 # tilde.town intranet
 
-There is an informal intranet on tilde.town accessible at 
-`localhost:12345`. You can access this after logging into tilde.town 
-using [lynx](https://linux.die.net/man/1/lynx), or you can use `ssh`'s 
-local port forwarding to access the intranet from your favorite web 
-browser.
+There is an informal intranet on tilde.town accessible at `localhost:12345`. 
+You can either access the intranet locally after logging into tilde.town 
+using [lynx](https://linux.die.net/man/1/lynx), [w3m](https://linux.die.net/man/1/w3m) or a similar text-based web browser,
+or you can use `ssh`'s local port forwarding to remotely access the intranet from your favorite web browser.
 
 ## How to add pages to your intranet
 
@@ -20,7 +19,22 @@ in `public_html`. The latter is for the internet (public for the world
 to see) and the former is for the intranet (only other townies can see 
 them).
 
-## How to connect to the intranet
+## How to use the intranet as startup page in your text-based browser
+
+In order to automatically access the intranet when launching e.g. lynx from your shell,
+you can make use of the WWW_HOME environment variable by adding it to your shell config.
+Details vary however and depend on your respective shell. In the case of bash, add
+
+`export WWW_HOME='http://localhost:12345/'`
+
+to either your `.bash_profile` or `.bashrc` file, whichever one you use,
+then reload your config by running 
+
+`source .bash_profile` or `source .bashrc`. 
+
+The next time you launch your browser of choice from the shell, the intranet landing page should appear.
+
+## How to connect to the intranet remotely
 
 
 add the following block to ~/.ssh/config on your local machine (create it if it doesn't exist)

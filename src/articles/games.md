@@ -71,6 +71,15 @@ holodeck, enter the following command:
 
     holodeck
 
+## daily adventure
+
+daily adventure is a game where one chooses an action to complete each 
+day. An MVP (minimum viable product) version of the game has been 
+released. It was created by [~troido](https://tilde.town/~troido/). To 
+play the daily adventure game, enter the following command:
+
+    da
+
 ## nethack
 
 [NetHack](https://alt.org/nethack/) is a rogue-like game. After choosing your
