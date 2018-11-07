@@ -27,6 +27,7 @@ Identifying a crisis
 **Yellow Flags:** 
 
 * sudden unannounced deletion of content (public_html, feels posts, mastodon account, etc.)
+* sudden disappearances for long-ish periods of time, followed by suspicious dismissal ("oh it was nothing, i just had an accident, i'm ok")
 * talking about getting rid of physical belongings, especially if they were
   previously treasured objects
 * idle thoughts about hopelessness, escape, wishing to not exist ("no one will miss me", 
@@ -218,6 +219,7 @@ Additional contributors/proofreading:
 * ~unreal
 * ~aloosefruit
 * ~m455
+* ~tunas
 
 Thank you for being a compassionate member of this community; learning how to
 help and support each other is extremely important <3
