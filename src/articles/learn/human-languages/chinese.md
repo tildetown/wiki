@@ -1,3 +1,3 @@
-# chinese lessons on the town
+# links to Chinese lessons
 
-* [Learn to read and type Chinese](https://tilde.town/~m455/learn-to-read-and-type-chinese.html)
+* [learn to read and type Chinese](https://tilde.town/~m455/learn-to-read-and-type-chinese.html)
