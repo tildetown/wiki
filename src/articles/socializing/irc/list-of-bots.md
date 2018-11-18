@@ -27,8 +27,8 @@ But basically just snoop other people's bot scripts and ask questions in IRC.
 * norrisBot
 * sedbot ([source](https://git.tildeverse.org/ben/sedbot))
 * sotdbot
-* [cndorphbot](cndorphbot.html) ([source](http://tilde.town/~endorphant/cndorphbot.py.txt))
-* [txtminebot](txtminebot.html) ([source](https://github.com/modgethanc/plaintxtmines/tree/master))
+* [cndorphbot](bots/cndorphbot.html) ([source](http://tilde.town/~endorphant/cndorphbot.py.txt))
+* [txtminebot](bots/txtminebot.html) ([source](https://github.com/modgethanc/plaintxtmines/tree/master))
 * sameself ([source](http://tilde.town/~selfsame/dev/sameself.py))
 * cosnok ([source](https://github.com/tahnok/cosnok) (patches welcome))
 * minerbot ([page](bots/minerbot.html))
