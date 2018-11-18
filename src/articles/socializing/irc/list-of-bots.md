@@ -31,7 +31,7 @@ But basically just snoop other people's bot scripts and ask questions in IRC.
 * [txtminebot](bots/txtminebot.html) ([source](https://github.com/modgethanc/plaintxtmines/tree/master))
 * sameself ([source](http://tilde.town/~selfsame/dev/sameself.py))
 * cosnok ([source](https://github.com/tahnok/cosnok) (patches welcome))
-* minerbot ([page](bots/minerbot.html))
+* minerbot ([source](https://tildegit.org/khuxkm/minerbot), [page](bots/minerbot.html))
 * kelpiebot ([page](bots/kelpiebot.html))
 * wisebot ([page](bots/wisebot.html))
 * tildebot ([View all scores here](/~login/tildebot.txt))

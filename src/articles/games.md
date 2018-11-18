@@ -1,4 +1,4 @@
-]# Games on tilde.town
+# Games on tilde.town
 
 Various games are available in Town. Here's a list of them.
 
