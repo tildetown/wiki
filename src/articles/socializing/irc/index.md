@@ -47,6 +47,7 @@ An incomplete list of channels, sorted by activity:
 * *#tokipona*: tokipona-language learning/practice/discussion; non-tokipona
   language use is welcome, fluency not necessary
 * *#ttbp*: dev updates, troubleshooting, etc. for the feels engine
+* *#math*: talk about mathematics (at any level) - needs to be more popular than it currently is
 
 ## IRC Bots
 
