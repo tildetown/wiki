@@ -48,7 +48,7 @@ An incomplete list of channels, sorted by activity:
   language use is welcome, fluency not necessary
 * *#ttbp*: dev updates, troubleshooting, etc. for the feels engine
 * *#math*: talk about mathematics (at any level) - needs to be more popular than it currently is
-
+* [*#mafia*](channels/mafia.html) - A good old-fashioned game of Mafia.
 ## IRC Bots
 
 Our chat is full of bots. They range from funny to useful to occasionally
