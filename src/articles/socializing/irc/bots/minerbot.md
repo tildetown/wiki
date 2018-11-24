@@ -7,6 +7,10 @@ Owner: [~minerobber](https://tilde.town/~minerobber)
 
 Source [here](https://tildegit.org/khuxkm/minerbot).
 
+Currently being rewritten.
+
+Help channel is #minerbot on ~town IRC.
+
 ## Commands
 
 * __!steven_universe__ comes up with a Markov generated Steven Universe title and episode.
