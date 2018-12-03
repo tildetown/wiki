@@ -128,8 +128,8 @@ The main channel of the tildeverse is `#meta`, which you can join after
 connecting to the network (`/join #meta`).
 
 Connecting through the town node grants you access to the town-only channel
-`#town`. Besides the other local channels on each member node, all other
-channels are shared across tildes and will be visible to other tilde members.
+`#town`. All other channels are shared across tildes and will be visible to
+other tilde members.
 
 tilde.chat has the same expectations of culture and sharing and kindness as
 the internal IRC chat. Come share the love. :)
