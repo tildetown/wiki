@@ -26,4 +26,4 @@ enter.  To save changes,  use `:`, and then type `wq`, and then hit enter.
 For a more in depth tutorial on vim, check out this cool [interactive
 tutorial](http://www.openvim.com/).
 
-Our own ~shanx has [a page](/~shanx/vim.html#TIL) about `vim`.
+Our own ~shanx has [a page](/~shanx/vim.html#TIL) about `vim`, as does [~kirch](/~kirch/vim.html).
