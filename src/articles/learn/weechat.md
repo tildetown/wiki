@@ -51,4 +51,6 @@ Do you prefer **irssi**? [Check it out here!](irssi.html)
 
 20. **F9** to scroll Weechat's title bar (with the topic in it) to the left, and **F10** to scroll it to the right.
 
+21. **Ctrl + P** to go to the previous channel on the buffer list, and **Ctrl + N** to go to the next channel on the buffer list.
+
 More information here: <https://weechat.org/files/doc/devel/weechat_quickstart.en.html>.
