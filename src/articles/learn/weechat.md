@@ -21,7 +21,7 @@ Do you prefer **irssi**? [Check it out here!](irssi.html)
 
 5. A unified buffer is that where what would belong in separate buffers are shown together in a single buffer (with a single number). A common example of a unified buffer is one where weechat's core buffer (which always opens when you run weechat and cannot be closed) and server buffers (which is where the irc server's responses to server-directed commands like **/list** appear) are shown together. One can switch between buffers (sub-buffers?) in a unified buffer using **Ctrl + X**.
 
-6. One can autocomplete usernames by typing part of the username, then pressing **Tab**.
+6. One can autocomplete usernames by typing part of the username, then pressing **Tab**. **Continuing** to press **Tab** will scroll through other usernames that match, from most recently mentioned to least recently mentioned order.
 
 7. One can view an easily copyable version of messages in the buffer by pressing **Alt + L**. This is good for things like copying hyperlinks or quoting an irc conversation in a blog post.
 
@@ -52,5 +52,7 @@ Do you prefer **irssi**? [Check it out here!](irssi.html)
 20. **F9** to scroll Weechat's title bar (with the topic in it) to the left, and **F10** to scroll it to the right.
 
 21. **Ctrl + P** to go to the previous channel on the buffer list, and **Ctrl + N** to go to the next channel on the buffer list.
+
+22. 
 
 More information here: <https://weechat.org/files/doc/devel/weechat_quickstart.en.html>.
