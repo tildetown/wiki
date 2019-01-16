@@ -20,10 +20,15 @@ violator).
 
 ## Root
 
-The town's `root` account is accessible only to ~vilmibm and two emergency
-admins: [~cmr](/~cmr) and [~datagrok](/~datagrok). In the past, sudo has been
-granted to some deputized users for a short term (like [~karlen](/~karlen),
-[~demophoon](/~demophoon), and [~krowbar](/~krowbar)).
+A few select users have access to the town's `root` account. They are:
+
+- [~vilmibm](/~vilmibm)
+- [~archangelic](/~archangelic)
+- [~l0010o0001l](/~l0010o0001l)
+- [~cmr](/~cmr)
+
+Sometimes other users are deputized with root access to deal with situations
+as they arise.
 
 `root` sees all and can do all. It has access to every single file and can assume
 any user at any time. **This is a big deal**. In general, actions that are not
@@ -34,10 +39,8 @@ use of system resources or harassment).
 
 ## The admin group
 
-Some resources are owned by the `admin` group. This group exists to help
-volunteer admins access certain system resources without being granted root
-privileges. This group is not heavily used at the moment, but exists and will be
-used as the volunteer admin program expands.
+Some resources are owned by the `admin` group. This is the group of users with
+root access.
 
 ## The Admin App
 
@@ -190,10 +193,11 @@ You should probably let the user know this is done.
 
 in `#tildetown`, run `/topic this is my cool new topic`
 
-### Restore ops to someone
+### Handle nick unregistration if necessary in IRC
 
-If a volunteer admin (or ~vilmibm themself) loses operator status for some reason, help them out with `/op username` in the `#tildetown` channel.
+sometimes users need their IRC account reset:
 
+    /quote NS unregister a-username
 
 ## Admin Only Tasks
 
