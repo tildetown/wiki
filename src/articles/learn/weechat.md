@@ -49,6 +49,8 @@ Do you prefer **irssi**? [Check it out here!](irssi.html)
 
 19. **/set buflist.look.enabled 1** enables the buffer list on the left, and **/set buflist.look.enabled 0** disables the same.
 
+195. Alternatively, **/bar show buflist** shows the buffer list on the left and **/bar hide buflist** hides the same. **/bar show nicklist** shows the nickname list on the right, and **/bar hide nicklist** hides the same.
+
 20. **F9** to scroll Weechat's title bar (with the topic in it) to the left, and **F10** to scroll it to the right.
 
 21. **Ctrl + P** to go to the previous channel on the buffer list, and **Ctrl + N** to go to the next channel on the buffer list.
