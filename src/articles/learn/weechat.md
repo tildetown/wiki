@@ -53,6 +53,6 @@ Do you prefer **irssi**? [Check it out here!](irssi.html)
 
 21. **Ctrl + P** to go to the previous channel on the buffer list, and **Ctrl + N** to go to the next channel on the buffer list.
 
-22. 
+22. **Ctrl + A** to go to the next item on the hotlist, which is a list of buffers ordered by most recent activity, and **Ctrl + H** to clear the hotlist.
 
 More information here: <https://weechat.org/files/doc/devel/weechat_quickstart.en.html>.
